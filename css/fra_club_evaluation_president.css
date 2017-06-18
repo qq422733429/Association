@@ -1,0 +1,82 @@
+#wrap #main {
+	margin: 0.3em;
+	background-color: #FFFFFF;
+}
+
+#main #person_general {              
+    background-color: #C1DAD9;
+	border-bottom: 1px solid #F0F0F0;
+	height: 6em;
+	
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+}
+
+#person_general_info{
+	margin-left: 0.3em;
+}
+#club_head_img{
+	margin: 0.3em 0.2em 0.2em 0.5em;
+	height: 5em;
+	width: 5em;
+	border-radius: 50%;
+}
+
+#person_info #person_name {
+   
+    margin-top: 0.6em;
+    text-align: center;
+    font-size: 1.2em;
+}
+#person_info .person_title {
+    font-size: 0.8em;
+}
+
+#person_medal span {
+	width: 1.5em;
+	height: 2em;
+	background-image: url(../image/icon_rank_person.png);
+	background-repeat: no-repeat;
+	background-size: 1.5em;
+}
+
+#person_medal {
+	margin-top: 0.5em;
+}
+
+#brief ul {
+	margin-left: 0.5em;
+	margin-top: 1em;
+	padding-bottom: 1em;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+#brief ul #li2 {
+    color: #55D2CA;
+}
+
+#total_org_act_num #li2 {
+	margin-left: 8em;
+}
+#other_club_total_act #li2 {
+	margin-left: 1em;
+}
+#org_act_degree #li2 {
+	margin-left: 7em;
+}
+#other_club_per_assessment #li2 {
+	margin-left: 6em;
+	width: 2em;
+	height: 1.6em;
+	
+	background-image: url(../image/icon_expand_normal.png);
+	background-position-y: center;
+	/*background-position-x: left;*/
+	/*background-position: 0em 0.3em;*/
+	background-repeat: no-repeat;
+	background-size: 1.2em;
+}

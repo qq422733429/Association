@@ -1,0 +1,240 @@
+body{
+	background-color: #F0F0F0;
+}
+
+#wrap{
+	width: 100%;
+}
+
+h1{
+	font-family: "微软雅黑";
+	font-size: 1em;
+	font-weight: 200;	
+	white-space: nowrap;
+}
+
+#header{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+     flex-flow: row;
+     text-align: center;
+     background: #FFFFFF;
+}
+
+#header .title{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+}
+
+#header h1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	white-space: nowrap;
+	font-size: 1.5em;
+	color: #4ED1C9;
+	
+}
+
+#header img{
+	width: 50px;
+	height: 50px;
+
+}
+
+#header .complete{
+	width: 50px;
+	height: 50px;
+	
+}
+
+#header .complete img{
+	width: 35px;
+	height: 35px;
+	margin: 10px;
+}
+#header1 .rightHeader{
+	background-image: url(../image/icon_save.png);
+}
+
+.content{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-flex-flow: column;	
+    flex-flow: column;
+	margin-top: 5px;
+	background: #FFFFFF;
+}
+
+.content h1{
+
+}
+
+
+.task_topic{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;	
+    flex-flow: row;
+	border-bottom: 1px solid gainsboro;
+	padding: 15px;
+}
+
+.task_topic h1{
+	/*border: 1px solid;*/
+	padding-top: 7px;
+}
+
+
+input{
+	font-family: "微软雅黑";
+	font-size: 1em;
+	padding: 10px;
+	/*border: 1px solid;*/
+	margin-left: 5px;
+}
+
+.task_time{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;	
+    flex-flow: row;
+	border-bottom: 1px solid gainsboro;
+	padding: 15px;
+	/*display: inline-block;*/
+}
+
+.task_time h1{
+	padding-top: 12px;
+	/*border: 1px solid;*/
+	/*display: inline-block;*/
+}
+
+.task_time .time{
+	padding-left: 15px;
+}
+
+.task_time .null{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	/*display: inline-block;*/
+	/*border: 1px solid;*/
+}
+
+.task_time img{
+	width: 40px;
+	height: 50px;
+	display: inline-block;
+}
+
+.task_person{
+	padding: 15px;
+	margin-right: 5px;
+}
+
+ul{
+	margin-top: 15px;
+	/*display: inline-block;*/
+}
+
+li{
+	width: 47%;
+}
+
+.task_involed{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+   	position: relative;
+   	height: 70px;
+	background: #DBECEB;
+	margin-top: 7px;
+	margin-right: 7px;
+	float:left;	
+}
+
+.task_involed img{
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	border-radius: 50%;
+}
+
+.task_involed_content{
+	margin-top: 5px;
+}
+
+.task_involed h1{
+	font-size: 0.8em;
+	margin-right: 5px;
+	white-space: nowrap;
+}
+
+.task_involed .delete{
+	right: 0px;
+	top: 0px;
+	width: 20px;
+	height: 20px;
+	/*display: inline-block;*/
+	/*float: right;*/
+	position: absolute;
+}
+
+.task_involed .clear{
+	clear: both;
+}
+
+.task_in{
+	text-align: center;
+	background: #DBECEB;
+	background: #DBECEB;
+	margin-top: 7px;
+	margin-right: 7px;
+	float:left;	
+	height: 70px;
+	/*border: 1px solid;*/
+}
+
+.task_in img{
+	width: 70px;
+	height: 70px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

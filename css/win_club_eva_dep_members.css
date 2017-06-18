@@ -1,0 +1,79 @@
+#main {
+	margin: 0.3em;
+	background-color: #FFFFFF;
+}
+.expandable {
+	background-image: url(../image/icon_club_evaluation_right.png);
+	background-repeat: no-repeat;
+	background-position: 88%;
+	background-size: 30px;
+	font-size: 1.1em;
+	padding: 10px 0 10px 10px;
+	border-bottom: 1px solid #F0F0F0;
+}
+.hidden {
+	display: none !important;
+	background-color: #F0F0F0;
+}
+
+.member li{
+	padding: 10px;
+}
+
+.person_item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	background-color: #F5F5F5;
+	border-bottom: 1px solid #ccc;
+}
+.person_item .left {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	margin-left: 10px;
+	position: relative;
+}
+
+.person_item .left .clik_eva_tip {
+	font-size: 9px;
+	color: #4DD0D2;
+}
+
+.person_head img{
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+}
+
+.person_name {
+	/*background: #4DD0C8;*/
+	text-align: center;
+	margin-top: 5px;
+	padding: 5px 10px;
+}
+.duty {
+	font-size: 0.6em;
+	text-align: top;
+	background-color: bisque;
+	/*position: absolute;*/
+	position:static ;
+	margin: 3px;
+	top: 3px;
+	left: 50px;
+	
+}
+.button{
+	background: #4DD0C8;
+	margin: 0px 10px;
+	color: #FFFFFF;
+	padding: 5px 10px;
+	margin-top: 8px;
+	height: 20px;
+	text-align: center;
+	font-size: 0.8em;
+	border-radius: 5px;
+}
+.warming{
+	background: #FF0000;
+}

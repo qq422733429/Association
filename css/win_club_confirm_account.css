@@ -1,0 +1,140 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+	background-color: #f5f5f5
+}
+#wrap {
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-flex-flow: column;
+	flex-flow: column;
+}
+h1 {
+	font-family: "微软雅黑";
+	font-size: 1em;
+	font-weight: 200;
+}
+#header {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+	background: #FFFFFF;
+}
+#header img {
+	height: 30px;
+	width: 30px;
+	padding: 10px;
+}
+#header .title {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	text-align: center;
+}
+#header h1 {
+	font-size: 1.5em;
+	color: #4ED1C9;
+	padding-top: 8px;
+}
+
+#header1 .rightHeader{
+	background-image: url(../image/icon_save.png);
+}
+.tab {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+	border-radius: 25px;
+	background: #DBECE8;
+	margin: 10px;
+}
+.confirm {
+	background-image: url(../image/yellow_point.png);
+	background-repeat: no-repeat;
+	background-size: 15px;
+	background-position-x: 112px;
+	background-position-y: 3px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 25px;
+}
+.verify {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.reset {
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 40px;
+}
+.tab h1 {
+	font-size: 20px;
+	font-weight: 200;
+	white-space: nowrap;
+	color: #4DD0C8;
+}
+.content {
+	background: #FFFFFF;
+}
+.content .phone {
+	border-bottom: 1px solid #F5F5F5;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+}
+.content .verify_code {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+}
+.content input {
+	height: 50px;
+	font-family: "微软雅黑";
+	font-size: 22px;
+}
+.verify_image {
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+	background-image: url(../image/verify_image_bg.jpg);
+	font-family: Arial;
+	font-style: italic;
+	color: #CEE88B;
+	font-size: 30px;
+	border: 0;
+	padding: 2px 3px;
+	letter-spacing: 3px;
+	font-weight: bolder;
+	/*float: left;
+	cursor: pointer;
+	text-align: center;
+	vertical-align: middle;*/
+}
+a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #288bc4;
+	margin-left: 10px;
+	font-family: "微软雅黑";
+}

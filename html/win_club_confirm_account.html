@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../css/api.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/win_club_confirm_account.css" />
+		<title>confirm account</title>
+	</head>
+
+	<body>
+		<div id="header1">
+			<!--<img src="../image/icon_backword.png" onclick="closeWin()"/>
+			<div class="title">
+				<h1>找回密码</h1></div>
+			<img src="../image/icon_save.png" onclick="save_verify()" />-->
+			<div class="leftHeader" tapmode="" onclick="closeWin()">
+					<span class="header_font"></span>
+				</div>
+				<div class="null header_font">
+					找回密码
+				</div>
+				<div class="rightHeader"tapmode="" onclick="save_verify()">
+					<span class="header_font"></span>
+				</div>
+		</div>
+		<div id="main">
+			<div class="tab">
+				<div class="confirm">
+					<h1>确认账号</h1>
+				</div>
+				<div class="verify">
+					<h1>安全验证</h1>
+				</div>
+				<div class="reset">
+					<h1>修改密码</h1>
+				</div>
+			</div>
+			<div class="content">
+				<div class="phone">
+					<input type="text" size=20 placeholder="手机号" />
+				</div>
+				<div class="verify_code">
+					<input type="text" size=20 placeholder="验证码" />
+				</div>
+				<div>
+					<span class="verify_image">sssss</span>
+					<a onclick="createCode()">换一张</a>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../script/api.js"></script>
+	<script src="../script/common.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="../script/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="../script/win_club_confirm_account.js"></script>
+
+</html>

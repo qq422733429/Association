@@ -1,0 +1,102 @@
+body {
+	background-color: #FFFFFF;
+}
+.expandable {
+	background-image: url(../image/icon_club_evaluation_right.png);
+	background-repeat: no-repeat;
+	background-position: 88%;
+	background-size: 30px;
+	font-size: 1.1em;
+	padding: 10px 0 10px 10px;
+	border-bottom: 1px solid #F0F0F0;
+}
+.hidden {
+	display: none !important;
+	background-color: #F0F0F0;
+}
+.member li {
+	padding: 10px;
+}
+#setction_create {
+	background-color: #FFF;
+	border-bottom: 1px solid #F0F0F0;
+}
+#setction_name {
+	width: 70%;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 10px;
+	background-color: #F0F0F0;
+	float: left;
+}
+.create_button {
+	padding: 5px 10px;
+	margin: 10px 10px 10px 0;
+	color: white;
+	background-color: #4CD0C8;
+	border-radius: 10px;
+	float: left;
+	display: inline-block;
+}
+.clear {
+	clear: both;
+}
+#button {
+	color: #FFFFFF;
+	background-color: #4CD0C8;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+	margin: 10px 10px 10px 0;
+	border-radius: 10px;
+}
+.person_item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	background-color: #F5F5F5;
+	border-bottom: 1px solid #ccc;
+}
+.person_item .left {
+	margin-left: 10px;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	position: relative;
+}
+.person_head img {
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+}
+.member .person_name {
+	text-align: center;
+	margin-top: 8px;
+	padding: 5px 5px;
+}
+.member .duty {
+	font-size: 0.6em;
+	text-align: top;
+	background-color: bisque;
+	position: absolute;
+	margin: 3px;
+	top: 3px;
+}
+.button {
+	background: #4DD0C8;
+	margin: 0px 10px;
+	color: #FFFFFF;
+	padding: 5px 10px;
+	margin-top: 8px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 0.8em;
+	border-radius: 5px;
+}
+.warming {
+	background: #FF0000;
+}
+#part3_header .right {
+	background-image: url(../image/icon_manage.png);
+	background-position: 80% center;
+}

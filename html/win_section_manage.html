@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+		<title>部门管理</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/win_section_manage.css" />
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="part3_header">
+				<div class="back" onclick="closeWin()" tapmode=""></div>
+				<div class="title">
+					<p>
+						部门管理
+					</p>
+				</div>
+				<div class="right" onclick="deleteManage()" tapmode=""></div>
+			</div>
+			<div id="main">
+				<div id="setction_create">
+					<input type="text" id="setction_name" value="" placeholder="输入新部门名称，不多于五个字" />
+					<div class="create_button" tapmode="" onclick="createSection()">
+						创建
+					</div>
+					<div class="clear"></div>
+				</div>
+				<ul class="member_list">
+					<!--<li tapmode="" class="expandable" onclick="showMember(this)">
+						<div class="">
+							社长
+						</div>
+					</li>
+					<li class="member hidden">
+						<ul>
+							<li class="person_item">
+								<a class="person_head"><img src="../image/boy.png" /></a>
+								<div class="left">
+									<span class="person_name"> 大虾大虾大虾大虾 </span>
+									<span class="duty"> 部长 </span>
+								</div>
+								<a class="button" tapmode="" onclick="chat()">私信</a>
+								<a class="button warming" tapmode="" onclick="deleteMember(this)">删除</a>
+							</li>
+						</ul>
+					</li>-->
+				</ul>
+			</div>
+		</div>
+		<script src="../script/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../script/jquery-2.1.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../script/api.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../script/win_section_manage.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="../script/common.js"></script>
+</html>

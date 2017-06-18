@@ -1,0 +1,139 @@
+body {
+	height: 100%;
+	width: 100%;
+}
+#wrap {
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-flex-flow: column;
+	flex-flow: column;
+}
+#header {
+	/*width: 100%;*/
+}
+#main {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	background-color: #F5F5F5;
+}
+#footer {
+	width: 100%;
+	text-align: center;
+	height: 56px;
+	line-height: 55px;
+	border-top: 1px solid #F0F0F0;
+	background-color: #FFFFFF;
+}
+ul {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.bottom_btn {
+	background-position-y: 6px;
+	padding-top: 16px;
+	font-size: 12px;
+	color: #323237;
+	width: 99%;
+	height: 40px;
+	background-repeat: no-repeat no-repeat;
+	background-position-x: center;
+}
+.all_club {
+	background-size: 25px 27px;
+	background-image: url(../image/nav_all_clubs.png);
+}
+.my_club {
+	background-size: 25px 27px;
+	background-image: url(../image/nav_my_club.png);
+}
+.chat {
+	background-size: 25px 20px;
+	background-position-y: 9px;
+	background-image: url(../image/nav_chat.png);
+}
+.userCenter {
+	background-size: 25px 27px;
+	background-image: url(../image/nav_user.png);
+}
+#footer li {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	height: 56px;
+}
+.active .all_club {
+	background-image: url(../image/nav_all_clubs_l.png);
+}
+.active .my_club {
+	background-image: url(../image/nav_my_club_l.png);
+}
+.active .chat {
+	background-image: url(../image/nav_chat_l.png);
+}
+.active .userCenter {
+	background-image: url(../image/nav_user_l.png);
+}
+.active .bottom_btn {
+	color: #4DD0C8;
+}
+.activebar {
+	display: block;
+}
+.tb_bar {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	border-bottom: 5px solid #F5F5F5;
+}
+.tabar_active {
+	color: #4DD0C8;
+}
+.tb_bar li {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	padding: 7px;
+	box-sizing: border-box;
+	text-align: center;
+	border-top: 1px solid #F0F0F0;
+}
+.tb_bar li:not(:last-child) {
+	border-right: 1px solid #F0F0F0;
+}
+#tb_club_list {
+	border-right: 1px solid #ccc;
+}
+.title .change {
+	font-size: 0.5em;
+	color: #4DD0C8;
+}
+.notice_new_active {
+	right: 7%;
+	bottom: 40px;
+	position: absolute;
+	background-color: red;
+	border-radius: 50%;
+	width: 8px;
+	height: 8px;
+}
+.chat_new_active {
+	right: 31%;
+	bottom: 40px;
+	position: absolute;
+	background-color: red;
+	border-radius: 50%;
+	width: 8px;
+	height: 8px;
+}
+
+.clear{
+	color:#4DD0C8;
+	position: absolute;
+	right: 10px;
+	top: 15px;
+}

@@ -1,0 +1,56 @@
+#part3_header .right {
+	background-image: url(../image/icon_manage.png);
+	background-position: 80% center;
+}
+#part3_header .delete {
+	color: red;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 5px;
+	position: absolute;
+	left: 5px;
+	top: 0px;
+}
+#part3_header .cancel {
+	color: #4DD0C8;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 5px;
+	position: absolute;
+	right: 5px;
+	top: 0px;
+}
+ul {
+	margin-top: 2px;
+	padding: 1px;
+	margin-left:15px;
+	width:300px;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+}
+li {
+	list-style: none;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	position: relative;
+	margin-top:2px;
+	/*border: 1px solid #C1DAD9;*/
+}
+img {
+	width: 90px;
+	height: 90px;
+	margin-left: 10px;
+
+}
+.seleted {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	right: 8px;
+}
+.clear {
+	clear: both;
+}

@@ -1,0 +1,17 @@
+.right{
+	background-image: url("../image/wx_share.png");
+}
+
+#main_frm{
+	background-color: #FFFFFF;
+	/*text-align: center;*/
+	/*text-decoration: underline;*/
+	margin: 0.3em;
+	
+}
+
+input{
+	margin: 0.3em;
+	padding: 3px;
+	background-color: #F0F0F0;
+}

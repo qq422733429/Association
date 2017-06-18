@@ -1,0 +1,111 @@
+#wrap{
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+
+h1{
+	font-family: "微软雅黑";
+	font-size: 22px;
+	font-weight: 400;
+	white-space: nowrap;
+}
+
+#header{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+}
+
+#header img{
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+}
+
+#header .null{
+	width:  20px;
+}
+
+#header h1{
+	padding-top: 5px;
+	font-size: 22px;
+	color: #4DD0C8;
+}
+
+#header1 .rightHeader{
+	background-image: url(../image/icon_save.png);
+}
+
+.content{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-flex-flow: column;	
+    flex-flow: column;
+	margin-top: 10px;
+	background: #FFFFFF;
+}
+
+.phone{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+	border-bottom: 1px solid #F5F5F5;
+}
+
+.get_verify{
+	width:6em;
+	height:1.5em;
+	line-height:1.5em;
+	margin: 12px;
+	margin-left: 0px;
+	background: #4DD0C8;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	padding: 7px;
+	/*white-space: nowrap;*/
+}
+
+/*.get_verify h1{
+	color: white;
+	font-size: 14px;
+	padding: 10px;
+}*/
+
+input{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	padding: 15px;
+	padding-left: 20px;
+	outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

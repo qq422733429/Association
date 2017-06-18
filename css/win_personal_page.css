@@ -1,0 +1,159 @@
+			.rightHeader {
+				background-image: none;
+			}
+			#wrap {
+				background-color: #FFFFFF;
+			}
+			.right_arrow {
+				margin-top: 10px;
+				float: right;
+				margin-right: 5%;
+				/*height: 28px;*/
+				/*background-color:#FF0000 ;*/
+			}
+			.right_arrow img {
+				vertical-align: middle;
+				height: 30px;
+				width: 30px;
+			}
+			.clear {
+				clear: both
+			}
+			.person_head {
+				padding-top: 10px;
+				padding-left: 20px;
+			}
+			.head,
+			.nick,
+			.right_arrow {
+				display: inline-block;
+			}
+			.head img {
+				height: 50px;
+				width: 50px;
+				border-radius: 50em;
+			}
+			.sex {
+				margin-top: 10px;
+				width: 20px;
+				height: 15px;
+			}
+			.nick {
+				position: relative;
+				margin-left: 10%;
+				/*padding-bottom: 15px;*/
+				
+				font-size: 1.2em;
+				top: -20px;
+			}
+			.person_nick {
+				/*margin-top: 15px;*/
+				/*font-weight: bold;*/
+				
+				font-size: 1em;
+			}
+			.person_signature {
+				padding-left: 5%;
+			}
+			.person_info {
+				/*padding-left: 5%;*/
+			}
+			.person_info ul {
+				margin-top: 5px;
+			}
+			.person_info li {
+				padding-left: 5%;
+			}
+			/*插入字符，这个可以让字符对齐color=背景色*/
+			
+			.insert_ch {
+				color: #FFFFFF
+			}
+			.person_info li .key,
+			.person_signature .key,
+			.person_signature .value,
+			.person_info li .value {
+				line-height: 35px;
+				font-size: 0.9em;
+			}
+			.person_signature .key,
+			.person_signature .value {
+				line-height: 2em;
+			}
+			.person_signature .key,
+			.person_info li .key {
+				color: #a5a5a5;
+			}
+			.person_signature .value,
+			.person_info li .value {
+				color: #171E28;
+			}
+			.green_line {
+				height: 1px;
+				background-color: #d2f3f1;
+			}
+			.person_album {
+				display: -webkit-box;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-orient: horizontal;
+				-webkit-flex-flow: row;
+				flex-flow: row;
+				padding-bottom: 30px;
+			}
+			.addImage {
+				/*background-color: #4DD0C8;*/
+				
+				padding-left: 15px;
+				/*border:1px solid #4CD0C8 ;*/
+				
+				color: #a5a5a5;
+				padding-left: 5%;
+				margin-top: 5px;
+				font-size: 0.8em;
+				margin-bottom: 10px;
+			}
+			.addImage #images {
+				margin: 0px 0px;
+				/*border:1px solid #00CC65;*/
+				
+				-webkit-box-flex: 1;
+				-webkit-flex: 1;
+				flex: 1;
+			}
+			#images li {
+				/*border:1px solid #00CC65;*/
+				
+				display: inline-block;
+				/*margin-left: 2px;*/
+				
+				text-align: center;
+				width: 20%;
+				height: 50px;
+				margin-left: 5%;
+				margin-top: 2px;
+				float: left;
+				/*border:1px solid #ff0000 ;*/
+			}
+			#images li img {
+				width: 100%;
+				height: 100%;
+				/*border:1px solid #4CD0C8 ;*/
+				
+				padding: 0px;
+				margin: 0px;
+			}
+			.float {
+				clear: both;
+			}
+			.send_message {
+				margin: 20px 20px;
+				text-align: center;
+				background-color: #4CD0C8;
+				height: 30px;
+				line-height: 30px;
+				padding: 5px;
+				border-radius: 5px;
+				color: #FFFFFF;
+				font-weight: bold;
+			}

@@ -1,0 +1,103 @@
+#wrap{
+	width: 100%;
+}
+
+h1{
+	font-family: "微软雅黑";
+	font-size: 22px;
+	font-weight: 400;
+	white-space: nowrap;
+}
+
+#header{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+#header img{
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+}
+
+#header .null{
+	width: 20px;
+}
+
+#header h1{
+	padding-top: 5px;
+	font-size: 22px;
+	color: #4DD0C8;
+}
+
+.content{
+	margin-top: 10px;
+	background: #FFFFFF;
+}
+
+.password1{
+	border-bottom: 1px solid #F5F5F5;
+}
+
+.password1 input,.password2 input{
+	font-family: "微软雅黑";
+	font-size: 1em;
+	margin-left: 40px;
+	outline: none;
+}
+.complete_modify{
+	margin: 20px;
+	text-align: center;	
+	background: #4DD0C8;
+	border-radius: 10px;	
+	padding: 5px;
+	color: #FFFFFF;
+	font-size: 1.5em;
+}
+
+input{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	margin: 15px;
+	margin-left: 40px;
+	outline: none;
+}
+
+.complete{
+	margin: 20px;
+	text-align: center;	
+	background: #4DD0C8;
+	border-radius: 10px;
+}
+
+.complete h1{
+	font-family: "微软雅黑";
+	font-size: 25px;
+	font-weight: 800;
+	padding: 12px;
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

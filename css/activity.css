@@ -1,0 +1,238 @@
+#activity {
+	/*margin:10px;*/
+	margin-top: 2px;
+	padding-top: 2px;
+	/*    		padding-left:25px ;*/
+	background-color: #ffffff;
+	border-bottom: 2px solid #F0F0F0;
+	border-top: 2px solid #F0F0F0
+}
+/*社团项或者详情项点击时出现阴影效果*/
+/*.bg_active{
+ background-color: #F0A30A;
+ }*/
+.club {	
+	height: 45px;
+	background-color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+	padding-left: 20px;
+	border-bottom: 2px solid #F5F5F5;
+	border-top: 2px solid #F5F5F5;
+}
+.club img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.font-clubName {
+	margin-left: 5px;
+	font-size: 1.2em;
+	line-height: 45px;
+	height: 45px;
+	/*margin-top: 7px;*/
+	color: #111111;
+	
+	
+}
+.set_up_time {
+
+	margin-top: 7px;
+	font-size: 12px;
+	line-height: 12px;
+	color: #8e8c8c;
+}
+.activityItem {
+	padding-bottom: 3px;
+	margin-left: 15px;
+	/*padding-top: 5px;*/
+}
+.club_name, .time, .site, .person_num {
+	padding: 3px;
+	line-height: 1.2em;
+	font-size: 1em;
+	color:#444444;
+}
+
+#activity_detail {
+	margin-left: 20px;
+	padding-top: 5px;
+}
+.topic {
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-left: 15px;
+	font-size: 1.1em;
+	line-height:1em;
+	/*font-weight:700;*/
+	color:#101010
+	
+	
+	/*border-bottom: 1px solid #F5F5F5;*/
+}
+.activityItem i {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	-webkit-background-size: contain !important;
+	background-size: contain !important;
+	margin-right: .5em;
+	vertical-align: text-bottom;
+}
+.club_name i {
+	background: url(../image/club.png) no-repeat left center;
+}
+.time i {
+	background: url(../image/time.png) no-repeat left center;
+}
+.site i {
+	background: url(../image/site.png) no-repeat left center;
+}
+.person_num i {
+	background: url(../image/person_num.png) no-repeat left center;
+}
+.activity_brif {
+	background-color: #FFFFFF;
+	margin-top: 5px;
+	margin-top: 5px;
+	padding-top: 8px;
+	/*padding-left:25px ;*/
+}
+.descrptionAndImg {
+	background-color: #FFFFFF;
+	margin-top: 3px;
+	padding: 0px;
+}
+
+.descrption {
+	padding: 1em;
+	line-height: 20px;
+	text-indent: 1em;
+}
+.images {
+	margin-top: 10px;
+	text-align: center;
+}
+.images img {
+	width: 80%;
+	/*height: 150px;*/
+}
+.comnentslist {
+	/*margin-top: 10px;*/
+	padding-top: 20px;
+	background-color: #FFFFFF;
+	padding-left: 5%;
+	padding-bottom: 20px;
+}
+.commentItem {
+	padding: 4px 5px;
+	margin-right: 5%;
+	background-color: #F5F5F5;
+	font-size: 0.9em;
+	line-height: 1.1em;
+}
+.tap_comment {
+	background-color: #ffffff;
+}
+.sendUser, .recvUser {
+	color: #4DD0C8
+}
+.publishComment {
+
+	height: 30px;
+	/*margin-top: 10px;*/
+	border-top: 1px solid #4DD0C8;
+	background-color: #FFFFFF;
+	padding: 5px;
+}
+.inputComment {
+
+	margin-left: 2%;
+	border: 1px solid #f3f5f3;
+	background-color: #f3f5f3;
+	display: inline-block;
+	border-radius: 8px;
+	height: 28px;
+	font-size: 14px;
+	width: 80%;
+}
+/*发送评论*/
+.tap_send {
+	background-color: #5D80C0;
+}
+.send {
+	margin-left: 2px;
+	padding: 4px 8px;
+	border-radius: 5px;
+	background-color: #4DD0C8;
+	color: #ffffff;
+	display: inline-block;
+	float: right;
+}
+
+.bottom {
+	margin: 0px;
+	padding: 0px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	border-top: 1px solid #E9E8EB
+}
+.bottom li {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	text-align: center;
+	background-position: center;
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.bottom li a {
+	display: block;
+	text-align: center;
+	background: url(../image/border.png) no-repeat right center;
+	color: #c6c5c8;
+}
+.bottom li a.light {
+	color: #4DD0C8;
+}
+.bottom li:last-child a {
+	background: none !important;
+}
+
+.bottom a i {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	-webkit-background-size: contain !important;
+	background-size: contain !important;
+	margin-right: .5em;
+	vertical-align: text-bottom;
+}
+.bottom .like  i {
+	background: url(../image/act_like_normal.png) no-repeat left center;
+}
+.bottom .like.light i, #act .bottom .like.active  i {
+	background: url(../image/act_like_select.png) no-repeat left center;
+}
+.bottom .join i {
+	background: url(../image/act_join_normal.png) no-repeat left center;
+}
+.bottom .join.light i, #act .bottom .join.active i {
+	background: url(../image/act_join_select.png) no-repeat left center;
+}
+.bottom  .comment i {
+	background: url(../image/act_comment_normal.png) no-repeat left center;
+}
+.bottom  .comment.light i, #act .bottom  .comment.active i {
+	background: url(../image/act_comment_select.png) no-repeat left center;
+}

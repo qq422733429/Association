@@ -1,0 +1,71 @@
+.tab {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+	border-radius: 25px;
+	background: #DBECE8;
+	margin: 10px;
+}
+.confirm {
+	background-image: url(../image/yellow_point.png);
+	background-repeat: no-repeat;
+	background-size: 15px;
+	background-position-x: 112px;
+	background-position-y: 3px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 25px;
+}
+.verify {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.reset {
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 40px;
+}
+.tab h1 {
+	font-size: 20px;
+	font-weight: 200;
+	white-space: nowrap;
+	color: #4DD0C8;
+}
+.content {
+	background: #FFFFFF;
+}
+.content .phone {
+	border-bottom: 1px solid #F5F5F5;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+}
+.content .verify_image {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+}
+.content input {
+	height: 50px;
+	line-height: 50px;
+	font-family: "微软雅黑";
+	font-size: 22px;
+}
+.verify_image img {
+	width: 120px;
+	height: 50px;
+	margin-left: 50px;
+	margin-right: 10px;
+	border-radius: 10px;
+}

@@ -1,0 +1,50 @@
+ul {
+	text-align: center;
+}
+.operaion_list li {
+	list-style: none;
+	width: 25%;
+	float: left;
+	padding: 60px 0px 10px 0px;
+	text-align: center;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+	border: 1px solid #F5F5F5;
+	background-position: center 10px;
+	box-sizing: border-box;
+	color: #555555;
+}
+#sign_in {
+	background-image: url(../image/operation_sign_in.png);
+}
+#vote {
+	background-image: url(../image/operation_vote.png);
+}
+#task {
+	background-image: url(../image/operation_task.png);
+}
+#club_info {
+	background-image: url(../image/operation_club_info.png);
+}
+#finance {
+	background-image: url(../image/operation_finance.png);
+}
+#activity_manage {
+	background-image: url(../image/operation_activity_manage.png);
+}
+#certication {
+	background-image: url(../image/operation_certication.png);
+}
+#section_manage {
+	background-image: url(../image/operation_section_manage.png);
+}
+#member {
+	background-image: url(../image/operation_member.png);
+}
+#evaluation {
+	background-image: url(../image/operation_evaluation.png);
+}
+#activity {
+	background-image: url(../image/operation_activity.png);
+}

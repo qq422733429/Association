@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/activity.css">
+		<style type="text/css">
+			.rightHeader {
+				background-image: none;
+			}
+			
+		</style>
+
+	</head>
+
+	<body>
+		<div id="wrap">
+			<div id="header1">
+				<div class="leftHeader" tapmode="" onclick="returnBack();">
+					<span class="header_font"></span>
+				</div>
+				<div class="null header_font">
+					社团活动
+				</div>
+				<div class="rightHeader">
+					<span class="header_font"></span>
+				</div>
+			</div>
+			<div id="scroll">
+				<!--<div id="activity">
+
+					<div class="topic">汉唐文化鉴赏，品味多姿生活</div>
+					<ul class="activityItem" tapmode="bg_active" onclick="open_activityDetail();">
+						<li><span class="club_name"><i></i>汉服文学社</span></li>
+						<li>
+							<span class="time"><i></i>2015-5-20</span>
+						</li>
+						<li>
+							<span class="site"><i></i>四川大学望江校区笃行楼前</span>
+						</li>
+						<li>
+							<div class="person_num"><i></i><span >50/100</span ></div>
+						</li>
+					</ul>
+					<ul class="bottom" id="act">
+						<li>
+							<a tapmode="active" onclick="addLike();" class="like "><i></i> <span > 110 </span></a>
+						</li>
+						<li>
+							<a tapmode="active" onclick="addJoin();" class="join "><i></i> <span > 110 </span> </a>
+						</li>
+						<li>
+							<a tapmode="active" onclick="publishComment();" class="comment "><i></i> <span > 110 </span></a>
+						</li>
+					</ul>
+
+				</div>-->
+				<!--<div id="activity" >
+					<div class="club" tapmode="" onclick="open_clubDetail();">
+						<img  id="club_head" src="../image/test5251sun.png">
+						
+							<div class="font-clubName">阳光文学社</div>							
+					</div>
+					<ul id="activity_detail" tapmode="bg_active" onclick="open_activityDetail();">
+						<li >
+							主题：<span class="topic">汉唐文化鉴赏，品味多姿生活</span>
+						</li>
+						<li>
+							时间：<span  class="time">2015-5-20</span>
+						</li>
+						<li>
+							地点：<span   class="site">四川大学望江校区笃行楼前</span>
+						</li>
+						<li>
+							人数：<span   class="person_num">50/100</span>
+						</li>
+					</ul>
+					<ul class="bottom" id="act">
+						<li>
+							<a tapmode="active" onclick="addLike();" class="like "><i></i> <span > 110 </span></a>
+						</li>
+						<li>
+							<a tapmode="active" onclick="addJoin();" class="join "><i></i> <span > 110 </span> </a>
+						</li>
+						<li>
+							<a tapmode="active" onclick="publishComment();" class="comment "><i></i> <span > 110 </span></a>
+						</li>
+					</ul>
+					
+				</div>-->
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../script/api.js"></script>
+	<script>
+		function returnBack() {
+			api.closeWin();
+		}
+
+		function showFrame() {
+			var width = api.winWidth;
+			var header = $api.byId('header1');
+			var headerPos = $api.offset(header);
+			var height = api.winHeight - headerPos.h;
+			api.openFrame({
+				name: 'club_activity_list',
+				url: 'fra_activity.html',
+				bounces: true,
+				opaque: true,
+				vScrollBarEnabled: false,
+				pageParam: {
+					society_id: api.pageParam.society_id
+				},
+				rect: {
+					x: 0,
+					y: headerPos.h,
+					w: width,
+					h: height
+				}
+			});
+		}
+		apiready = function() {
+			showFrame();
+		}
+	</script>
+
+</html>

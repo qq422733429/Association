@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+		<title>社团风采</title>
+		<link rel="stylesheet" type="text/css" href="css/api.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+
+	<body>
+		<div id="wrap">
+			<div id="header">
+				<div id="all_club" class="topbar hidden activebar">
+					<div class="title">
+						社团风采
+					</div>
+					<ul class="tb_bar">
+						<li id="all_activity_list" tapmode="tap" onclick="openTab('all_activity_list',2,1)"><!--2,1表示第几个frame里的第几个frame-->
+							校园活动
+						</li>
+						<li id="all_club_list" tapmode="tap" class="tabar_active" onclick="openTab('all_club_list',2,1)">
+							校园社团
+						</li>
+					</ul>
+				</div>
+				<div id="my_club" class="topbar hidden">
+					<div class="title" onclick="change_society()" tapmode="tap">
+						<span id="society_name">
+							
+						</span>
+						<span class="change">
+							[切换]
+						</span>
+					</div>
+					<!--<ul class="tb_bar">
+						<li id="club_operation" tapmode="tap" onclick="openTab('club_operation',2,2)">
+							社团运作
+						</li>
+						<li id="my_club_activity" tapmode="tap" class="tabar_active" onclick="openTab('my_club_activity',2,2)">
+							社团活动
+						</li>
+						<li id="club_evaluation" tapmode="tap" onclick="openTab('club_evaluation',2,2)">
+							社团考核
+						</li>
+						<li id="club_detail" tapmode="tap" onclick="openTab('club_detail',2,2)">
+							社团详情
+						</li>
+					</ul>-->
+				</div>
+				<div id="chat" class="topbar hidden">
+					<div class="title">
+						私信
+					</div>
+					<div class="clear" onclick="clear_message()">清空</div>
+				</div>
+				<div id="userCenter" class="topbar hidden">
+					<div class="title">
+						个人中心
+					</div>
+				</div>
+			</div>
+			<div id="main"></div>
+			<div id="footer">
+				<ul>
+					<li tapmode="tap" class="active" onclick="openTab('all_club',1)">
+						<a class="bottom_btn all_club">社团风采</a>
+					</li>
+					<li tapmode="tap" onclick="openTab('my_club',1)">
+						<a class="bottom_btn my_club">我的社团</a>
+					</li>
+					<li tapmode="tap" onclick="openTab('chat',1)">
+						<a class="bottom_btn chat ">私信</a>
+						<span class="chat_new_active hidden"></span>
+					</li>
+					<li tapmode="tap" onclick="openTab('userCenter',1)">
+						<a class="bottom_btn userCenter ">个人中心</a>
+						<span class="notice_new_active hidden"></span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script src="script/api.js" type="text/javascript" charset="utf-8"></script>
+	<script src="script/index.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="script/zepto.min.js" charset="utf-8"></script>
+	<script type="text/javascript" src="script/common_club_evaluation.js" charset="utf-8"></script>
+
+</html>

@@ -1,0 +1,73 @@
+.vote_item {
+	background-color: #FFFFFF;
+	/*margin-top: 5px;*/
+	
+	border-top: 5px solid #F0F0F0;
+}
+.item_content_list li {
+	padding: 10px;
+	border-bottom: 1px solid #F0F0F0;
+}
+.head {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+}
+.title {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	position: relative;
+}
+.person {
+	margin-left: 5px;
+}
+.person .name {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+.person .duty {
+	font-size: 0.8em;
+}
+.person .time {
+	font-size: 0.7em;
+	color: #CCCCCC;
+	margin-top: 3px;
+}
+.result {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.action {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.action div {
+	width: 50%;
+	text-align: center;
+}
+.agree {
+	color: #4DD0C8;
+}
+.disagree {
+	color: #FB8181;
+}
+.action .agree {
+	border-right: 1px solid #F0F0F0;
+}
+.processed {
+	text-align: center;
+	color: #aaa;
+}
+.hidden {
+	display: none;
+}
+.delete_vote {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	right: 10px;
+	top:20px
+}

@@ -1,0 +1,27 @@
+body {
+	background-color: #F5F5F5;
+}
+.club_list {
+	/*margin-top: 10px;*/
+}
+.club_list li {
+	width: 25%;
+	height: 110px;
+	float: left;
+	text-align: center;
+	background-color: #fff;
+	border: 5px solid #F5F5F5;
+	box-sizing: border-box;
+	position: relative;
+}
+div{
+	text-align: center;
+	margin-top: 5px;
+	font-size: 0.8em;
+}
+li img {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	margin-top: 10px;
+}

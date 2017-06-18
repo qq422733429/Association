@@ -1,0 +1,188 @@
+/*2015-8-12,Commented by lzm,这里因为common.css是盒子导致下边的出不来
+ *所以这里用下边的CSS样式可以解决
+ * */
+#wrap {
+		/*用margin才不会导致变形,盒子里面存放内容超出body很有可能导致滚动出问题*/
+		/*margin:0px;
+		margin-top:5px;
+		padding-top:8px;*/
+		margin-bottom: 3px;
+}
+#main_fra{
+	margin: 0.3em;
+}
+
+.section {
+	margin-top: 0.3em;
+	background-color: #FFFFFF;	
+}
+
+.section .person_info {
+	/*2015-7-25,Modified by luozhengming*/
+	/*background-image: url(../image/personnel_head.png);*/
+	/*background-repeat: no-repeat;
+	background-size: 3em;
+	background-position: 0.8em 0.5em;*/
+	border-bottom: 1px solid #F0F0F0;
+	list-style-type: none;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	
+}
+
+#person_title{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+	height: 55px;
+	position: relative;
+	
+}
+
+#club_head_img{
+	margin: 0.2em 0.2em 0.2em 0.8em;
+	height: 48px;
+	width: 48px;
+	border-radius: 50%;
+}
+.club_delete_img{
+	margin-left: 1.5em;
+	margin-top: 0.7em;
+	/*margin-right: 1em;*/
+	position: absolute;
+	right: 0.3em;
+	height: 2em;
+	width: 2em;
+	border-radius: 50%;
+}
+#club_person_title_other{
+    margin-top: 5px;
+}
+
+#club_person_title_other #nickname {    
+    margin-left: 0.3em;
+    font-weight: bold;
+	font-size: 1em;
+    line-height: 1.5em;
+}
+
+#club_person_title_other #title {
+	font-size: 0.8em;
+	line-height: 1.5em;
+}
+
+#club_person_title_other #apply_time {
+ 	margin-left: 0.3em;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    color: #CCCCCC;
+    padding-bottom: 0.3em;
+}
+
+/*抽取公共的部分作盒子模型*/
+#main_fra div div .ul1 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+	
+	border-bottom: 1px solid #F0F0F0;
+} 
+
+#main_fra div div ul .li1 {
+    
+    padding-left: 0.8em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    font-size: 1em;
+    line-height: 1.5em;
+} 
+#main_fra div div ul .li2 {
+	-webkit-box-flex: 1; 
+    -webkit-flex: 1;
+    flex: 1;
+    
+    text-align: left;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    font-size: 1em;
+    line-height: 1.5em;
+} 
+
+.apply_position ul .li2 {
+	color: #4ED1C9;
+}
+
+.handle_btn {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+    -webkit-flex-flow: column;
+           flex-flow: column;
+}
+
+/*同意拒绝按钮做成盒子流模型*/
+.action {
+	-webkit-box-flex: 1; 
+    -webkit-flex: 1;
+    flex: 1;
+	
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+           flex-flow: row;
+    
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: center;
+    /*border-bottom: 1px solid #F0F0F0;*/
+}
+
+.handle_btn li div {
+	-webkit-box-flex: 1; 
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.handle_btn li .agree {
+	border-right: 1px solid #F0F0F0;
+	color: #4ED1C9;
+}
+
+.handle_btn li .refuse {
+	color: #FB8181;
+}
+
+.processed {
+	color: #8E8C8C;
+	padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: center;
+    
+    list-style-type: none;
+}
+
+#unprocessed {
+	color: #FB8181;
+}
+
+/*类别为.hidden的就将其隐藏起来*/
+.hidden{
+	display: none;
+}
+
+#footer{
+	height: 1em;
+}

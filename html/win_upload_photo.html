@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+		<title>title</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/win_new_vote.css" />
+	</head>
+
+	<body>
+		<div id="wrap">
+			<div id="part3_header">
+				<div class="back" tapmode="" onclick="closeWin()"></div>
+				<div class="title">
+					新投票
+				</div>
+				<div class="right" tapmode="" onclick="publish()"></div>
+			</div>
+			<div id="main">
+				<div id="content">
+					<div class="item">
+						<span>投票主题：</span>
+						<input type="text" id="topic" value="" placeholder="请输入主题" />
+					</div>
+					<div class="item">
+						<span>开始时间：</span>
+						<input type="text" id="start_time" value="" placeholder="请选择时间" onclick="selectTime(this)" />
+					</div>
+					<div class="item">
+						<span>截止时间：</span>
+						<input type="text" id="end_time" value="" placeholder="请选择时间" onclick="selectTime(this)" />
+					</div>
+					<p>
+						参与人员：
+					</p>
+					<ul id="selected_member_list">
+						<!--<li>
+						<a class="head"></a>
+						<div class="person">
+						<span class="name">AA</span>
+						<div class="duty ">
+						宣传部/部长
+						</div>
+						<img src="../image/remove.png" tapmode="" onclick="removePerson(this)" />
+						</div>
+						</li>-->
+						<li class="add" tapmode="" onclick="getMember()"></li>
+						<div class="clear"></div>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../script/api.js"></script>
+	<script src="../script/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../script/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../script/win_new_vote.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

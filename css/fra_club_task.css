@@ -1,0 +1,188 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	background-color: #f5f5f5
+}
+#wrap {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-flex-flow: column;
+	flex-flow: column;
+}
+
+h1{
+	font-family: "微软雅黑";
+	font-size: 1em;
+	font-weight: 200;
+}
+
+#main_frame{
+	margin-top: 5px;
+	/*display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-flex-flow: column;
+    flex-flow: column;*/
+}
+
+#main_frame .task{
+	/*display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-flex-flow: column;
+    flex-flow: column;*/
+    background: white;
+    margin-bottom: 5px;
+    
+}
+
+.task_header{
+    border-bottom: 1px solid gainsboro;
+    padding: 10px;
+    padding-top:2px;
+    height: 60px;
+}
+
+.user_header{
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	border: 1px solid;*/
+}
+
+ img{
+	margin-top: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.task_header .task_header_content{
+	/*white-space: nowrap;*/
+	display: inline-block;
+	/*border: 1px solid;*/
+	padding: 5px;
+}
+
+.task_header_content h1{
+	/*padding-bottom: 0px;*/
+}
+
+.task_header_content h2{
+	margin-top: 5px;
+	color: gainsboro;
+	font-family: "微软雅黑";
+	font-weight: 200;
+	font-size: 1em;
+	
+}
+.task_header .submit{
+	border: 2px solid #4ED1C9;
+	width: 60px;
+	height: 30px;
+	line-height:30px;
+	border-radius: 15px;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	margin-top:19px;
+	color:#4ED1C9;
+	font-weight: 800;
+	
+	
+}
+
+.task_header .clear{
+	clear: both;
+}
+
+.task_header .submit h1{
+	font-size: 1.2em;
+	font-weight: 800;
+	color: #4ED1C9;
+	padding-top: 4%;
+}
+
+.task_header .overtime{
+	border-radius: 15px;
+	/*text-align: center;*/
+	display: inline-block;
+	float: right;
+	color: #C5C5C5;
+	width: 80px;
+	height: 30px;
+	margin-top:25px;
+	font-weight: 800;
+
+}
+
+
+
+
+
+
+.task_deadline{
+	width: 100%;
+	text-align: left;
+	border-bottom: 1px solid gainsboro;
+}
+
+.task_deadline h1{
+	padding: 10px;
+}
+
+.task_content{
+	width: 100%;
+	text-align: left;
+	border-bottom: 1px solid gainsboro;
+}
+
+.task_content h1{
+	padding: 10px;
+}
+
+#task_score{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+}
+
+#task_score h1{
+	padding: 10px;
+}
+
+#task_score ul{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+}
+
+li{
+	background-image: url(../image/icon_rank_normal.png);
+	background-repeat: no-repeat;
+	background-size: 30px;
+	width: 30px;
+	margin-top: 6px;
+	margin-right: 10px;
+}
+
+li.active{
+	background-image: url(../image/icon_rank_select.png);
+	background-repeat: no-repeat;
+	background-size: 30px;
+	width: 30px;
+	margin-top: 6px;
+	margin-right: 10px;
+}

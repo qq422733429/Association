@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>完善个人信息1</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/win_club_complete_info_1.css" />
+	</head>
+	<body>
+		<div id="header1">
+			<!--<div class="back">
+				<img src="../image/icon_backword.png" onclick="go_back()"/>
+			</div>
+			<div class="null"></div>
+			<h1>信息完善</h1>
+			<div class="null"></div>
+			<img src="../image/icon_save.png" onclick="save()" />-->
+			<div class="leftHeader" tapmode="" onclick="go_back()">
+				<span class="header_font"></span>
+			</div>
+			<div class="null header_font">
+				信息完善
+			</div>
+			<div class="rightHeader"tapmode="" onclick="save()">
+				<span class="header_font"></span>
+			</div>
+		</div>
+		<div id="main">
+			<div class="content">
+				<div class="user_header">
+					<h1>头像：</h1>
+					<div class="header">
+						<img src="../image/add_normal.png"  onclick="add_header()"/>
+					</div>
+				</div>
+				<div class="nickname">
+					<h1>昵称：</h1>
+					<input type="text" size = 20 placeholder="点击输入昵称"  />
+				</div>
+				<div class="sex">
+					<h1>性别：</h1>
+					<label class="radios" for="in">
+						<input type="radio" name = "sex" value="男" />&nbsp;&nbsp;<h1>男</h1>
+					</label>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<label class="radios" for="out">
+						<input type="radio" name = "sex" value="女" />&nbsp;&nbsp;<h1>女</h1>
+					</label>
+				</div>
+			</div>
+		</div>
+		<div id="nav">
+			
+		</div>
+	</body>
+	<script type="text/javascript" src="../script/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="../script/win_club_complete_info_1.js"></script>
+</html>

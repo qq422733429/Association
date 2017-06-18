@@ -1,0 +1,157 @@
+#wrap{
+	width: 100%;
+}
+
+h1{
+	font-family: "微软雅黑";
+	font-size: 1em;
+	font-weight: 200;
+}
+
+#header{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+
+#header img{
+	padding: 10px;
+	width: 30px;
+	height: 30px;
+}
+
+#header .null{
+	width: 50px;
+}
+
+#header .title{
+	/*border: 1px solid;*/
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	text-align: center;
+	height: 30px;
+}
+
+#header .title h1{
+	color: #4DD0C8;
+	padding-top: 0px;
+	white-space: nowrap;
+}
+
+#header .back{
+	width: 50px;
+	height: 50px;
+}
+
+#header .back img{
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	
+}
+
+.alert{
+	background: #FB8181;
+}
+
+.alert h1{
+	font-size: 1em;
+	color:white;
+	padding: 10px;
+}
+
+.content{
+	background: #FFFFFF;
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-flex-flow: column;
+     flex-flow: column;
+}
+
+.content h1{
+	padding: 20px;
+	white-space: nowrap;
+}
+
+.content input{
+	height: 40px;
+	margin-top: 10px;
+	outline: none;
+	font-family: "微软雅黑";
+	font-size: 1em;
+}
+
+.real_name{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+     flex-flow: row;
+     border-bottom: 1px solid #EEF3FA;
+}
+
+.school_num{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+     flex-flow: row;
+     border-bottom: 1px solid #EEF3FA;
+}
+
+.school_year{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+     flex-flow: row;
+}
+
+.school_yeal .date{
+	padding-left: 0px;
+}
+.school_year img{
+	height: 30px;
+	padding-top: 20px;
+}
+
+.submit{
+	background: #4DD0C8;
+	text-align: center;
+	margin: 15px;
+	border-radius: 10px;
+}
+
+.submit h1{
+	color: #FFFFFF;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-family: "microsoft sans serif";
+	font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

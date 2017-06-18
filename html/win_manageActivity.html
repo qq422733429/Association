@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+		<title>活动管理</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css" />
+    	<link rel="stylesheet" type="text/css" href="../css/common.css" />
+    	<!--<link rel="stylesheet" href="../css/activity.css" />-->
+    	<style>
+    		.rightHeader {
+	 			background-image: url(../image/add_normal.png)
+ 			}
+ 			#managerActivityList{
+	 			-webkit-box-flex: 1; 
+			    -webkit-flex: 1;
+			    flex: 1;
+			    overflow-y: auto
+			    
+ 			}
+ 			#managerActivityItem{
+ 				background-color: #FFFFFF;
+ 				padding: 0px 18px;
+ 				margin-top: 10px;
+ 			}
+ 			#theme{
+ 			 border-bottom: 1px solid #F3F5F3;
+ 			 padding-top:8px;
+ 			 padding-bottom:8px;	
+ 			}
+ 			#theme .title{
+ 				display: inline-block;
+ 				margin-top: 7px	;
+ 				font-size:1.2em
+ 			}
+ 			#theme .title .person_num{
+ 				margin-left: 3px;
+ 				color:#fc9e9e;
+ 			}
+ 			#theme .btn{
+ 				float:right;
+ 				display: -webkit-box;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-orient: horizontal;
+				-webkit-flex-flow: row;
+	           	flex-flow: row;
+	           	border: 2px solid #4CD0C8;
+	           	border-radius: 10px;
+	           
+ 			}
+ 			#theme .btn .accept{
+ 				color:#4CD0C8;
+ 				border-right:1px solid #4CD0C8;
+ 				padding:5px 10px;
+ 			}
+ 			#theme .btn .reject{
+ 				color:#fc9e9e;
+ 				padding: 5px 10px;
+ 			}
+ 			.clear{
+ 				clear:both;
+ 			}
+ 			.head {
+ 				height: 50px;
+ 				width: 50px;
+ 				border-radius: 50%;
+ 				
+ 			}
+ 			.name{
+ 				display: inline-block;
+ 				border-left: 1px solid #F5F5F5;
+ 				padding-left: 10px;
+ 			}
+ 			.sex{
+ 				padding-right: 4px;
+ 				padding-left: 4px;
+ 			}
+ 			.handlingApply li,.handledApply li{
+ 				border-bottom: 1px solid #F5F5F5;
+ 				padding:5px
+ 			}
+ 			.check{
+ 				float:right;
+ 				margin-top: 15px;
+ 			}
+ 			
+ 		.set_up_time{
+		
+			margin-top: 5px;
+			font-size: 12px;
+			line-height: 15px;
+			color: #8e8c8c;
+		}
+		.state1{
+			color:#4CD0C8
+		}
+		.state2{
+			color:#fc9e9e
+		}
+ 			
+    	</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id ="header1">
+			 	<div class="leftHeader" tapmode="" onclick="returnBack()"><span class="header_font"></span>	</div>
+			 	<div class="null header_font">活动管理</div>
+			 	<div class="rightHeader"tapmode="" onclick="openPublishActivity()"></div>
+			</div>
+			<!--可以考虑用新的frame隐藏-->
+			
+			<div id="managerActivityList">
+				<!--<div id="managerActivityItem">
+					<div id="theme">
+						<div class="title">
+							<span >汉唐文化鉴赏</span>
+							<span class="person_num">48/60</span>
+						</div>
+						<ul class="btn">
+							<li class="accept"  onclick="accept();">同意</li>
+							<li class="reject" onclick="reject();">拒绝</li>
+						</ul>
+						<div class="clear"></div>
+					</div>
+					<ul class="handlingApply">
+						<li >
+							<img src="../image/managerHeader.png">
+							<div  class="name">AA(<img class="sex"src="../image/icon_male_gray.png">)/<sapn style="color:#FF0000">干事</sapn><br/><span class="set_up_time">今天12:00</span></div>
+							<div  class="check"><input name="checkbox" type="checkbox" value="checkbox" checked="checked" /></div>
+						</li>
+						<li>
+							<img src="../image/managerHeader.png">
+							<div  class="name">AA(<img src="../image/icon_male_gray.png">)/干事<br/><span class="set_up_time">今天12:00</span></div>
+							<div  class="check"><input name="checkbox" type="checkbox" value="checkbox" checked="checked" /></div>
+						</li>
+						
+					</ul>
+					
+					<ul class="handledApply">
+						<li>
+							<img src="../image/managerHeader.png">
+							<div  class="name">AA(<img src="../image/icon_male_gray.png">)/干事<br/><span class="set_up_time">今天12:00</span></div>
+							<div  class="check"><span class="state1">已同意</span></div>
+						</li>
+						<li>
+							<img src="../image/managerHeader.png">
+							<div  class="name">AA(男)/干事<br/><span class="set_up_time">今天12:00</span></div>
+							<div  class="check"><span class="state2">已拒绝</span></div>
+						</li>
+						
+					</ul>
+				</div>-->
+			</div>
+			
+			
+		</div>
+		
+	</body>
+	<script type="text/javascript" src="../script/api.js" ></script>
+	<script type="text/javascript" src="../script/win_manageActivity.js" ></script>
+	<script type="text/javascript" src="../script/common.js" ></script>
+	<script type="text/javascript" src="../script/notice.js" ></script>
+</html>

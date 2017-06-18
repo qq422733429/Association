@@ -1,0 +1,21 @@
+/*
+ * 2015-7-26,Added by luozhengming
+ * 1:本模块中主要的模块全部采用流盒子模型，只是在一些细节地方
+ * 做了一些细化和界面布局
+ * 2:本模块的许多地方都用了一类做了公共的封装。
+ * */
+.right_click{
+	background-image: url(../image/add_normal.png);
+	position: absolute;
+	/*right: 10px;
+	top: 4px;*/
+	background-size: 30px 30px;
+	width: 40px;
+	height: 40px;
+	background-position: 6px 6px;
+	background-repeat: no-repeat;
+}
+
+.hidden{
+	/*display: block;*/
+}

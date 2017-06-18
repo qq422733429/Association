@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>完善个人信息1</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/win_club_complete_info_2.css" />
+	</head>
+	<body>
+		<div id="header1">
+			<!--<div class="back">
+				<img src="../image/icon_backword.png" onclick="get_back()"/>
+			</div>
+			<div class = "title">
+				<h1>信息完善</h1>
+			</div>
+			<img src="../image/null.png" />-->
+			<div class="leftHeader" onclick="get_back()">
+				<span class="header_font"></span>
+			</div>
+			<div class="null header_font">
+				信息完善
+			</div>
+			<div class="rightHeader">
+				<span class="header_font"></span>
+			</div>
+		</div>
+		<div id="main">
+			<div class="alert">
+				<h1>您的敏感信息只用于社团管理，不会泄露给其他用户，一经填写不能修改，请务必保持您信息的真实性</h1>
+			</div>
+			<div class="content">
+				<div class="real_name">
+					<h1>真实姓名：</h1>
+					<input type="text" size=25 />
+				</div>
+				<div class="school_num">
+					<h1>您的学号：</h1>
+					<input type="text" size=25 />
+				</div>
+				<div class="school_year">
+					<h1>入学年份：</h1>
+					<h1 class = "date"></h1>
+					<div class="null"></div>
+					<img src="../image/icon_club_evaluation_right.png"  onclick = "select_date()"/>
+				</div>
+			</div>
+			<div class="submit" onclick="save()">
+				<h1>开启旅程</h1>
+			</div>
+		</div>
+		<div id="nav">
+			
+		</div>
+	</body>
+	<script type="text/javascript" src="../script/api.js"></script>
+	<script type="text/javascript" src="../script/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="../script/win_club_complete_info_2.js"></script>
+</html>

@@ -1,0 +1,64 @@
+#content {
+	margin: 10px;
+	background-color: #FFFFFF;
+}
+li {
+	left:7px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	float: left;
+	width: 40%;
+	padding: 5px;
+	background-color: #DBECE8;
+	margin: 10px;
+	position: relative;
+}
+
+.advise {
+	height: 40px;
+	width:100%;
+	font-size: 1em;
+	font-family:Tahoma;
+	color: #9F9FA6 ;
+	margin-left: 10px;
+}
+.participant {
+	margin-top: 5px;
+	padding: 5px;
+}
+
+#suggestion {
+	border: #F0F0F0 solid 1px;
+	padding: 5px;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+}
+
+.item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	padding-top:20px;
+	border-bottom: 1px solid #F0F0F0;
+	width:100%;/*自动适应父布局宽度*/ 
+	overflow:auto;
+}
+#main_frm {
+	background-color: #FFFFFF;
+}
+#wrap {
+	background-color: #FFFFFF;
+	margin: 0.5em;
+}
+.sub {
+	background: #4DD0C8;
+	padding: 10px 0;
+	text-align: center;
+	margin: 2em 2em 0 2em;
+	border-radius: 9px;
+	color: #FFFFFF;
+	font-size: 1.2em;
+}
+

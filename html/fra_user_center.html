@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+		<title>frame4</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/fra_user_center.css" />
+	</head>
+
+	<body>
+		<div id="wrap">
+			<div id="header">
+				<div id="user_block">
+					<img id="user_face" onclick="open_edit_userInfo()" />
+					<p id="user_name">
+					</p>
+				</div>
+			</div>
+			<div id="main">
+				<ul>
+					<li id="club_inform" onclick="openClubNotice()" tapmode="tap">
+						<div class="item">
+							<span class="label">社团通知</span>
+							<span class="new_active notice hidden"></span>
+						</div>
+					</li>
+					<div class="divider"></div>
+					<li id="comment" onclick="openComment()" tapmode="tap">
+						<div class="item">
+							<span class="label">评论回复</span>
+							<span class="new_active comment hidden"></span>
+						</div>
+					</li>
+					<div class="divider"></div>
+					<li id="my_activity" onclick="openMyActivity()" tapmode="tap">
+						<div class="item">
+							<span class="label">我参与的</span>
+							<span class="new_active hidden"> </span>
+						</div>
+					</li>
+					<div class="divider"></div>
+					<li id="reset_password" onclick="openResetPassword()" tapmode="tap">
+						<div class="item">
+							<span class="label">修改密码</span>
+							<span class="new_active hidden"> </span>
+						</div>
+					</li>
+					<div class="divider"></div>
+					<li id="experience_Feedback" onclick="openExperienceFeedback()" tapmode="tap">
+						<div class="item">
+							<span class="label">体验反馈</span>
+							<span class="new_active hidden"> </span>
+						</div>
+					</li>
+					<div class="divider"></div>
+					<li id="about" onclick="openAbout()" tapmode="tap">
+						<div class="item">
+							<span class="label">关于圈r&nbsp;</span>
+							<span class="new_active hidden"> </span>
+						</div>
+					</li>
+					<div class="divider"></div>
+					<li id="logout" onclick="Logout()" tapmode="tap">
+						<div class="item">
+							<span class="label">退出登录</span>
+							<span class=" hidden"> </span>
+						</div>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script src="../script/api.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../script/zepto.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../script/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../script/fra_user_center.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

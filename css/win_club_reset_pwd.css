@@ -1,0 +1,103 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+	background-color: #f5f5f5
+}
+#wrap {
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-flex-flow: column;
+	flex-flow: column;
+}
+h1 {
+	font-family: "微软雅黑";
+	font-size: 1em;
+	font-weight: 200;
+}
+.title {
+	margin-right: 15px;
+}
+#header {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+	background: #FFFFFF;
+}
+#header img {
+	height: 30px;
+	width: 30px;
+	padding: 10px;
+}
+#header .title {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	text-align: center;
+}
+#header h1 {
+	font-size: 1.5em;
+	color: #4ED1C9;
+	padding-top: 8px;
+}
+.tab {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	border-radius: 25px;
+	background: #DBECE8;
+	margin: 5px;
+}
+.progress {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	margin: 10px 15px;
+}
+.reset {
+	background-image: url(../image/yellow_point.png);
+	background-repeat: no-repeat;
+	background-size: 15px;
+	background-position-x: 75px;
+	background-position-y: -2px;
+}
+.tab h1 {
+	font-size: 20px;
+	color: #4DD0C8;
+}
+.content {
+	background: white;
+}
+input {
+	font-family: "微软雅黑";
+	font-size: 20px;
+}
+.reset_pwd {
+	border-bottom: 1px solid #F5F5F5;
+	padding: 15px;
+	padding-left: 40px;
+	height: 30px;
+	line-height: 30px;
+}
+.complete {
+	margin: 20px;
+	text-align: center;
+	background: #4DD0C8;
+	border-radius: 10px;
+}
+.complete h1 {
+	font-family: "微软雅黑";
+	font-size: 25px;
+	font-weight: 800;
+	padding: 12px;
+	color: #FFFFFF;
+}
+.btn_tap {
+	background-color: #3B9D98;
+}

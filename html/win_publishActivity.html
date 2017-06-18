@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    	 <title>title</title>
+   		 <link rel="stylesheet" type="text/css" href="../css/api.css"/>
+   		 <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+    	
+    	<style>
+    	.rightHeader {    		
+ 			
+ 			background-image: url(../image/icon_save.png)
+ 		}
+ 		#activity{
+ 			overflow-y: auto;
+ 			margin:2px 0px;
+ 			padding-bottom: 2em;
+ 			background-color: #FFFFFF;
+ 		}
+ 		.item{
+ 			line-height:40px;
+ 			height:40px;
+ 			padding:5px;
+ 			padding-left: 15px;
+ 			border-bottom:1px solid #F5F5F5 ;
+ 			display: -webkit-box;
+		    display: -webkit-flex;
+		    display: flex;
+		     -webkit-box-orient: horizontal;
+		    -webkit-flex-flow: row;
+		    flex-flow: row;		
+ 		}
+ 		
+ 		.publicActivity input,.item input,.activity_detail textarea{
+ 			-webkit-box-flex: 1; 
+		    -webkit-flex: 1;
+		    flex: 1;
+		    margin-left: 3px;
+		    padding:5px
+ 		}
+ 		.activity_detail{
+ 			padding-left: 15px;
+ 			border-bottom:1px solid #F5F5F5 ;
+ 			display: -webkit-box;
+		    display: -webkit-flex;
+		    display: flex;
+		     -webkit-box-orient: horizontal;
+		    -webkit-flex-flow: row;
+		    flex-flow: row;		
+ 		}
+ 		.to_top{
+ 			display: -webkit-box;
+		    display: -webkit-flex;
+		    display: flex;
+		     -webkit-box-orient: vertical;
+		    -webkit-flex-flow: column;
+		    flex-flow: column;		
+ 		}
+ 		.null{
+ 			-webkit-box-flex: 1; 
+		    -webkit-flex: 1;
+		    flex: 1;
+ 		}
+ 		.publicActivity{
+ 			line-height:40px;
+ 			height:40px;
+ 			padding:5px;
+ 			padding-left: 15px;
+ 			border-bottom:1px solid #F5F5F5 ;
+ 		}
+ 		 .addImage{
+ 		 	/*background-color: #4DD0C8;*/
+ 			padding:5px;
+ 			padding-left: 15px;
+ 			/*border:1px solid #4CD0C8 ;*/
+ 			border-bottom:1px solid #F5F5F5 ;
+ 		}
+ 		 .addImage #images{
+        	margin:10px 25px;	
+        }
+ 		#images li{
+        	display: inline-block;
+        	text-align: center;
+        	
+        	float:left;
+        	/*border:1px solid #ff0000 ;*/
+        }
+        #images li img{
+        	width: 80px;
+        	height: 80px;
+        	margin-left:3px;
+        	margin-top:2px;
+        
+        }
+        .float{
+        	clear:both;
+        }
+ 		
+    		
+    	</style>
+</head>
+	<body>
+		<div id="wrap">
+			<div id ="header1">
+			 	<div class="leftHeader" tapmode="" onclick="returnBack()"><span class="header_font"></span>	</div>
+			 	<div class="null header_font">发布活动</div>
+			 	<div class="rightHeader"tapmode="" onclick="publishActivity()"><span class="header_font"></span></div>
+			 	
+			</div>
+			<div id="scroll">
+			<div id="activity">
+				<ul>
+					<li class="item">活动主题：<input id = "activity_theme" type="text" placeholder=""></li>
+					<li class="item" >活动日期：<input readonly="readonly" type="text"id="date" onclick="timePicker(this);" > </li>
+					<li class="item">活动地点：<input id = "activity_site"type="text" placeholder=""></li>
+					<li class="item">人数限制：<input id = "activity_personLimited"type="number"placeholder=""></li>
+					
+					<li class="activity_detail">
+						 <div class="to_top">
+						 <div class="null"></div>
+						 <div >活动详情：</div>
+						 <div class="null"></div>
+						 </div>
+						<textarea id="activity_detail"type="text"  rows="6" cols="30"> </textarea></li>
+					<li class= "addImage " >添加图片：
+						<ul id="images">
+							<li id="add" onclick="selectImage();"><img src="../image/add_normal.png"></li>
+							<!--<li ><img src="../image/b0a4e97ajw8enzz4504v7j20u00u0ae8.jpg"></li>	
+							<li ><img src="../image/b0a4e97ajw8enzz4504v7j20u00u0ae8.jpg"></li>			
+							<li ><img src="../image/b0a4e97ajw8enzz4504v7j20u00u0ae8.jpg"></li>	
+							<li ><img src="../image/b0a4e97ajw8enzz4504v7j20u00u0ae8.jpg"></li>	
+							<li ><img src="../image/b0a4e97ajw8enzz4504v7j20u00u0ae8.jpg"></li>	
+							<li ><img src="../image/b0a4e97ajw8enzz4504v7j20u00u0ae8.jpg"></li>	
+							<li ><img src="../image/b0a4e97ajw8enzz4504v7j20u00u0ae8.jpg"></li>	
+							<li ><img src="../image/b0a4e97ajw8enzz4504v7j20u00u0ae8.jpg"></li>				-->
+						    <div class="float"></div>	
+							
+						</ul>
+					</li>
+					
+					
+					<li class="publicActivity">公开活动：<input type="checkbox" checked name="publishActivity"  ></li>
+					<li style="margin-left:5px;font-size:0.8em ;color:#4dd0c8;">ps:公开活动指的是非本社成员也能够查看本社团的活动</li>
+					
+				</ul>
+			      
+									
+			</div>
+			</div>
+		</div>
+	
+	</body>
+	<script type="text/javascript" src="../script/api.js" ></script>
+	<script type="text/javascript" src="../script/common.js" ></script>	
+	<script type="text/javascript" src="../script/jquery-2.1.4.js" ></script>
+	<script type="text/javascript" src="../script/win_publishActivity.js" ></script>
+	
+	
+</html>

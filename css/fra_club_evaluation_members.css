@@ -1,0 +1,107 @@
+#wrap #main {
+	margin: 0.3em;
+	background-color: #FFFFFF;
+}
+
+#main #person_general {              
+    background-color: #C1DAD9;
+	border-bottom: 1px solid #F0F0F0;
+	height: 6em;
+	
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+}
+
+#person_general_info{
+	margin-left: 0.3em;
+}
+#club_head_img{
+	margin: 0.3em 0.2em 0.2em 0.5em;
+	height: 5em;
+	width: 5em;
+	border-radius: 50%;
+}
+
+#person_info #person_name {
+   
+    margin-top: 0.6em;
+    text-align: center;
+    font-size: 1.2em;
+}
+#person_info .person_title {
+    font-size: 0.8em;
+}
+
+#person_medal span {
+	width: 1.5em;
+	height: 2em;
+	background-image: url(../image/icon_rank_person.png);
+	background-repeat: no-repeat;
+	background-size: 1.5em;
+}
+
+#person_medal {
+	margin-top: 0.5em;
+}
+.expandable {
+	background-image: url(../image/icon_club_evaluation_right.png);
+	background-repeat: no-repeat;
+	background-position: 88%;
+	background-size: 2em;
+	font-size: 1.1em;
+	padding: 0.7em 0em 0.7em 0.7em;
+	border-bottom: 1px solid #4ED1C9;
+}
+.hidden {
+	display: none !important;
+	background-color: #FFFFFF;
+}
+
+#brief ul {        
+    /*border-bottom: 1px solid #F0F0F0;*/
+}
+
+.member ul #li2 {
+    color: #4ED1C9;
+}
+
+#brief ul .member ul{
+	padding: 0.3em 0em 0.3em 1.7em;
+	border-bottom: 1px solid #F0F0F0;
+}
+
+#brief ul .member ul #li1 {
+	
+}
+#brief ul .member #year_total_club_act_num #li2 {
+	margin-left: 3em;
+}
+#brief ul .member #total_part_act_num #li2 {
+	margin-left: 5em;
+}
+#brief ul .member #total_sign_num #li2 {
+	margin-left: 9em;
+}
+#brief ul .member #club_act_degree #li2 {
+	margin-left: 8em;
+} 
+#brief ul .member #total_accept_task_num #li2 {
+	margin-left: 7em;
+}
+#brief ul .member #total_submit_task_num #li2 {
+	margin-left: 7em;
+} 
+#brief ul .member #task_degree #li2 {
+	margin-left: 8em;
+} 
+#brief ul .member #task_avg_star #li2 {
+	margin-left: 7em;
+} 
+
+#footer {
+	
+}

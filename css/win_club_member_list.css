@@ -1,0 +1,28 @@
+.member_list li{
+	font-size: 1.1em;
+	padding: 10px 0 10px 10px;
+	border-bottom: 1px solid #F0F0F0;
+}
+.expandable{
+	background-image: url(../image/icon_club_evaluation_down.png);
+	background-repeat: no-repeat;
+	background-position: 88%;
+	background-size: 12px;
+}
+
+.hidden{
+	display: none !important;
+	background-color: #F0F0F0;
+}
+span{
+	background: #4DD0C8;
+	font-size: 0.8em;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 5px;
+	padding: 7px;
+	color: #fff;
+}
+span .person_name{
+	background: #F0F0F0;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+		<title>签到管理</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<style>
+			#content {
+				background-color: #FFFFFF;
+				margin-top: 3px;
+				padding: 0px 10px;
+			}
+			#publishCheck, #checking, #checked {
+				border-bottom: 1px solid #F5F5F5;
+				line-height: 40px;
+				height: 40px;
+				margin-left: 5px;
+				margin-right: 5px;
+				padding: 3px;
+			}
+			.checking, .checked {
+				float: right;
+				display: inline-block;
+				color: #d5d5d5;
+				font-weight: bold;
+				text-align: center;
+			}
+			.publishCheck {
+				float: right;
+				font-weight: bold;
+				border: 1px solid #4CD0C8;
+				padding: 0px 6px;
+				border-radius: 15px;
+				color: #4CD0C8;
+				margin-top: 4px;
+				/*background-color: #000000;*/
+				line-height: 30px;
+			}
+			#content .theme {
+				/*margin-top: 4px;*/
+				display: inline-block;
+				width: 65%;
+				overflow: hidden;
+				height: 40px;
+				line-height: 40px;
+				white-space: nowrap;
+				text-overflow: ellipsis
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id ="header1">
+				<div class="leftHeader" tapmode="" onclick="returnBack()">
+					<span class="header_font"></span>
+				</div>
+				<div class="null header_font">
+					签到管理
+				</div>
+				<div class="rightHeader" ></div>
+			</div>
+			<div id="scroll">
+				<div style="text-align:center;margin-top:3px;padding:3px;background-color:#ffffff;font-size:0.8em ;color:#4dd0c8;">
+				亲: 点击签到中和签到完成的活动可以查看签到详情
+				</div>
+				<div id="content">
+				<!--<div id="publishCheck" >
+				<div class="theme ">
+				汉唐文化鉴赏
+				</div>
+				<div class="publishCheck " onclick="publishcheck(this)">
+				发布签到
+				</div>
+				<div style="clear:both"></div>
+				</div>
+				<div id="checking" onclick="checkDetail();">
+				<div class="theme">汉唐文化鉴赏</div>
+				<div class="checking">签到中</div>
+				<div style="clear:both"></div>
+				</div>
+				<div id="checked"  onclick="checkDetail();">
+				<div  class="theme">汉唐文化鉴赏</div>
+				<div class="checked">签到完成</div>
+				<div style="clear:both"></div>
+				</div>-->
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../script/api.js" ></script>
+	<script type="text/javascript" src="../script/win_manageCheck.js" ></script>
+	<script type="text/javascript" src="../script/common.js" ></script>
+	<script type="text/javascript" src="../script/notice.js" ></script>
+	<script>
+		
+	</script>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+		<title>安全验证</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/win_club_safe_verify.css" />
+	</head>
+
+	<body>
+		<div id="main">
+
+			<div id="part3_header">
+				<div class="back" onclick="closeWin()" tapmode=""></div>
+				<div class="title">
+					<p>找回密码</p>
+				</div>
+				<div class="right" onclick="reset_pwd()" tapmode=""></div>
+			</div>
+
+			<div class="tab">
+				<div class="confirm">
+					<h1>确认账号</h1>
+				</div>
+				<div class="verify">
+					<h1>安全验证</h1>
+				</div>
+				<div class="reset">
+					<h1>修改密码</h1>
+				</div>
+			</div>
+			<div class="content">
+				<div class="phone">
+					<div class='null'></div>
+					<div class="get_verify" tapmode="mode" onclick="get_verify_code()">
+						获取验证码
+					</div>
+				</div>
+				<div class="verify_num">
+					<input type="text" length=20 placeholder="请输入短信中的验证码" />
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../script/api.js"></script>
+	<script type="text/javascript" src="../script/jquery-2.1.4.js"></script>
+	<script src="../script/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../script/win_club_safe_verify.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

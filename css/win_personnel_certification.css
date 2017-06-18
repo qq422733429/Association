@@ -1,0 +1,223 @@
+/*
+ * 2015-7-26,Added by luozhengming
+ * 1:本模块中主要的模块全部采用流盒子模型，只是在一些细节地方
+ * 做了一些细化和界面布局
+ * 2:本模块的许多地方都用了一类做了公共的封装。
+ * */
+
+#wrap {
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-flex-flow: column;
+	flex-flow: column;
+}
+
+#wrap #part3_header {
+	-webkit-box-flex: 1; 
+    -webkit-flex: 1;
+    flex: 1;
+    
+    
+}
+
+#wrap #main {
+	-webkit-box-flex: 1; 
+    -webkit-flex: 1;
+    flex: 8;
+    
+    display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-flex-flow: column;
+	flex-flow: column;
+}
+
+#wrap #main div {
+	-webkit-box-flex: 1; 
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+/*抽取公共的部分作盒子模型*/
+#wrap #main div div .ul1 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+	
+	border-bottom: 1px solid #F0F0F0;
+} 
+/*下边li权重3/7开*/
+#wrap #main div div ul .li1 {
+	-webkit-box-flex: 1; 
+    -webkit-flex: 1;
+    flex: 3;
+} 
+#wrap #main div div ul .li2 {
+	-webkit-box-flex: 1; 
+    -webkit-flex: 1;
+    flex: 7;
+} 
+
+#wrap #part3_header {
+	padding-bottom: 5px;
+	background-color: #F0F0F1;
+}
+
+#wrap #main {
+	background-color: #FFFFFF;
+}
+
+#wrap #part3_header .title {
+	text-align: center;
+	font-size: 20px;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #F0F0F0;
+} 
+
+#part3_header .back {
+	width: 8%;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #F0F0F0;
+}
+
+#wrap #main .section  {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+    -webkit-flex-flow: column;
+           flex-flow: column;
+    
+    /*???怎么不起作用???*/
+    border-top: 5px;      
+    border-bottom: 1px solid #F0F0F0;
+    
+}
+
+#wrap #main .section div {
+	-webkit-box-flex: 1; 
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+#wrap #main .section .person_info {
+	-webkit-box-flex: 1; 
+    -webkit-flex: 1;
+    flex: 2;
+	
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+    -webkit-flex-flow: column;
+           flex-flow: column;
+	
+	/*2015-7-25,Modified by luozhengming*/
+	background-image: url(../image/personnel_head.png);
+	background-repeat: no-repeat;
+	background-size: 45px;
+	background-position: 5px 8px;
+	padding: 0 0 5px 50px;
+	border-bottom: 1px solid #F0F0F0;
+	list-style-type: none;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+#wrap #main .section .person_info .person_title {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+           flex-flow: row;
+}
+
+#wrap #main .section .person_info .apply_time {
+	-webkit-box-flex: 1; 
+    -webkit-flex: 1;
+    flex: 1;
+    
+    padding-left: 10px;
+    font-size: 15px;
+    color: #A6A5A5;
+}
+
+#wrap #main .section .person_info .person_title #nickname {
+	-webkit-box-flex: 1; 
+    -webkit-flex: 1;
+    flex: 1;
+    
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+#wrap #main .section .person_info .person_title #title {
+	-webkit-box-flex: 1; 
+    -webkit-flex: 1;
+    flex: 8;
+    
+    font-size: 14px;
+    text-align: left;
+}
+
+/*#section1 #apply_declaration*/
+#wrap #main .section .apply_declaration {
+	-webkit-box-flex: 1; 
+    -webkit-flex: 1;
+    flex: 2;
+}
+
+#wrap #main div div ul .li1 {
+	text-align: center;
+	padding-left: 1px;
+}
+
+#wrap #main div .apply_position ul .li2 {
+	color: #71D9D2;
+	text-align: left;
+}
+
+/*同意拒绝按钮做成盒子流模型*/
+#wrap #main div .handle_btn ul {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+           flex-flow: row;
+}
+
+#wrap #main div .handle_btn ul li {
+	-webkit-box-flex: 1; 
+    -webkit-flex: 1;
+    flex: 1;
+    
+    border-right: 1px solid #F0F0F0;
+    text-align: center;
+}
+
+#wrap #main div .handle_btn ul .agree {
+	color: #74D8D2;
+}
+
+#wrap #main div .handle_btn ul .refuse {
+	color: #FB8181;
+}
+
+#wrap #main div .handle_btn ul .agreed {
+	color: #979595;
+}
+
+#wrap #main div .handle_btn ul .refused {
+	color: #8E8C8C;
+}

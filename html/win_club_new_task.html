@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta charset="utf-8">
+        <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+
+		<link rel="stylesheet" type="text/css" href="../css/api.css"  />
+		<link rel="stylesheet" type="text/css" href="../css/common.css"  />
+		<link rel="stylesheet" type="text/css" href="../css/win_club_new_task.css"  />
+		
+		<title>win_club_new_task</title>
+	</head>
+	<body>
+		<div id = "wrap">
+			<div id = "header1">
+				<!--<img src = "../image/icon_backword.png" onclick="go_back()" /> 
+				<div class="title"><h1>新任务</h1></div>
+				<div class="complete">
+					<img src = "../image/icon_save.png"  onclick="save()" />
+				</div>-->
+				<div class="leftHeader" onclick="go_back()">
+					<span class="header_font"></span>
+				</div>
+				<div class="null header_font">
+					新任务
+				</div>
+				<div class="rightHeader" onclick="save()">
+					<span class="header_font"></span>
+				</div>
+			</div>
+			<div id = "main">
+				<div class="content">
+					<div class = "task_topic">
+						<h1>任务主题:</h1>
+						<input type="text" size=25 placeholder="请输入任务主题"  />
+					</div>
+					<div class = "task_time">
+						<h1>截止日期:</h1>
+						<h1 class="time"></h1>
+						<div class="null"></div>
+						<img src="../image/icon_club_evaluation_right.png" onclick="open_date()"/>
+					</div>
+					<div class = "task_person">
+						<h1>参与人员：</h1>
+						<ul>
+							<!-- <li class = "task_involed">
+								<img src="../image/b0a4e97ajw8enzz4504v7j20u00u0ae8.jpg"  />
+								<div class = "task_involed_content">
+									<h1>AA</h1>
+									<h1>组织部/部长</h1>
+								</div>
+								<img class = "delete" src="../image/remove.png" /> 
+								<div class="clear"/>
+							</li> -->
+							<!--<li class = "task_involed">
+								<img src="../image/b0a4e97ajw8enzz4504v7j20u00u0ae8.jpg"  />
+								<div class = "task_involed_content">
+									<h1>AA</h1>
+									<h1>组织部/部长</h1>
+								</div>
+							</li>							-->
+							<li class = "task_in">
+								<img src = "../image/add_normal.png" onclick="add_member()" />
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id = "nav">
+				
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../script/api.js"></script>
+	<script type="text/javascript" src="../script/common.js"></script>
+	<script type="text/javascript" src="../script/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="../script/win_club_new_task.js"></script>
+</html>

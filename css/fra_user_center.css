@@ -1,0 +1,87 @@
+body {
+	background-color: #FFFFFF;
+}
+#header {
+	color: #000000;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../image/user_center_bg.jpg);
+	height: 140px;
+	width: 100%;
+	text-align: center;
+}
+#user_block {
+}
+#user_face {
+	margin-top: 35px;
+	height: 70px;
+	width: 70px;
+	border-radius: 50px;
+}
+#user_name {
+	font-size: 1.2em;
+	color: white;
+}
+ul {
+	margin-top: 5px;
+	font-size: 1.2em;
+	color: #8E8C8C;
+}
+ul li {
+	height: 20px;
+	line-height: 25px;
+	padding: 12px 0px;
+	background-image: url(../image/icon_club_evaluation_right.png);
+	background-repeat: no-repeat;
+	background-position: 85% center;
+	background-size: 30px 30px;
+}
+.divider {
+	background-color: #F0F0F0;
+	height: 1px;
+	width: 100%;
+}
+.new_active {
+	background-color: red;
+	border-radius: 6px;
+	font-size: 0.5em;
+	color: white;
+	top: -5px;
+	padding: 0px 6px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	margin-left: 5px;
+	position: absolute;
+}
+.item {
+	position: relative;
+	margin-left: 30px;
+	background-size: 20px;
+	background-position-x: 0 center;
+	background-repeat: no-repeat;
+}
+.item .label {
+	margin-left: 30px;
+}
+#club_inform .item {
+	background-image: url(../image/icon_club_inform.png);
+}
+#comment .item {
+	background-image: url(../image/icon_comment.png);
+}
+#my_activity .item {
+	background-image: url(../image/icon_my_acivity.png);
+}
+#reset_password .item {
+	background-image: url(../image/icon_modify.png);
+}
+#experience_Feedback .item {
+	background-image: url(../image/feedback.png);
+}
+#about .item {
+	background-image: url(../image/icon_about.png);
+}
+#logout .item {
+	background-image: url(../image/icon_logout.png);
+}

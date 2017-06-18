@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+		<title>签到</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/activity.css" />
+		<style>
+			.rightHeader {
+				background-image: url(../image/icon_manage.png);
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id ="header1">
+				<div class="leftHeader" tapmode="" onclick="returnBack()">
+					<span class="header_font"></span>
+				</div>
+				<div class="null header_font">
+					签到
+				</div>
+				<div class="rightHeader"tapmode="" onclick="openCheckManager()">
+					<span class="header_font"></span>
+				</div>
+			</div>
+			<div id="scroll"></div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../script/api.js" ></script>
+	<script>
+		function showFrame() {
+			var width = api.winWidth;
+			var header = $api.byId('header1');
+			var headerPos = $api.offset(header);
+			var height = api.winHeight - headerPos.h;
+			api.openFrame({
+				name : 'check',
+				url : 'fra_check.html',
+				bounces : true,
+				opaque : true,
+				vScrollBarEnabled : false,
+				rect : {
+					x : 0,
+					y : headerPos.h,
+					w : width,
+					h : height
+				}
+			});
+		}
+
+		apiready = function() {
+			showFrame();
+		}
+		function openCheckManager() {
+			api.openWin({
+				name : 'manageCheck',
+				url : 'win_manageCheck.html'
+				//			    pageParam: {name: 'test'}
+			});
+		}
+
+		function returnBack() {
+			api.closeWin({
+				name : "",
+				
+			});
+		}
+	</script>
+</html>

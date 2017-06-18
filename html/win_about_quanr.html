@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+		<title>title</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<style>
+		
+			.logo {
+				margin-top:20px;
+				height: 100px;
+				text-align: center;
+				background-image: url(../image/logo.png);
+				background-repeat: no-repeat;
+				background-size: contain !important;
+				background-position: center;
+			}
+			.name{
+				text-align: center;
+				font-size:1.2em;
+			}
+			.description{
+				margin-top:20px;
+				text-indent: 2em;
+				font-size:0.95em;
+				color:#444444;
+				padding:10px;
+			}
+			.copyRight{
+				text-align: center;
+				color:#888888;
+				padding-bottom:20px;
+				font-size:0.9em;
+				background-color:#ffffff;
+			}
+			#scroll{
+				background-color:#ffffff;	
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id ="header1">
+				<div class="leftHeader" tapmode="" onclick="returnBack()">
+					<span class="header_font"></span>
+				</div>
+				<div class="null header_font">
+					关于圈r
+				</div>
+				<div class="rightHeader"tapmode="" >
+					<span class="header_font"></span>
+				</div>
+			</div>
+			<div id="scroll">
+				<div class="logo"></div>
+				<div class ="name">圈r</div>
+				<div class ="description">
+				一款帮助高校社团发展社团文化的软件；
+				一款让活动爱好狂魔随时了解、参与周边校园社团活动的软件；
+				圈r，让你的大学生活多姿多彩!
+
+				</div>
+			</div>
+			<div class="copyRight">圈圈世界版权所有<br/>Copyright © 2011-2015 Quanr<br/> 
+				All Rights Reserved.
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="api.js"></script>
+	<script type="text/javascript">
+		function returnBack(){
+			api.closeWin({
+            });
+		}
+	</script>
+</html>

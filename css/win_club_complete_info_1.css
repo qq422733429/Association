@@ -1,0 +1,201 @@
+#wrap{
+	width: 100%;
+}
+
+h1{
+	font-family: "微软雅黑";
+	font-weight: 200;
+	font-size: 1em;
+	white-space: nowrap;
+}
+
+#header{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+
+#header img{
+	padding: 10px;
+	width: 30px;
+	height: 30px;
+}
+
+#header .null{
+	width: 40px;
+}
+
+#header h1{
+	color: #4DD0C8;
+	padding-top: 2px;
+}
+
+#header .back{
+	width: 50px;
+	height: 50px;
+}
+
+#header .back img{
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	
+}
+
+#header1 .rightHeader{
+	background-image: url("../image/icon_save.png");
+}
+
+.content{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-flex-flow: column;
+     flex-flow: column;
+	margin-top: 10px;
+	background: #FFFFFF;
+}
+
+.user_header{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+	-webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+     flex-flow: row;
+    /*display: inline-block;*/
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.user_header h1{
+	font-family: "微软雅黑";
+	padding: 15px;
+	padding-top: 35px;
+	/*display: inline-block;*/
+}
+
+.user_header img{
+	height: 60px;
+	width: 60px;
+	margin: 10px;
+	border-radius: 50%;
+	/*display: inline-block;*/
+}
+
+.nickname{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+	-webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+     flex-flow: row;
+     border-bottom: 1px solid #F5F5F5;
+}
+
+.nickname h1{
+	font-family: "微软雅黑";
+	padding: 15px;
+}
+
+.nickname input{
+	font-family: "微软雅黑";
+	font-size: 1em;
+	height: 20px;
+	margin-top: 15px;
+	outline: none;
+}
+
+.sex{
+	/*display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+	-webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+    flex-flow: row;*/
+   	display: inline-block;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.sex h1{
+	font-family: "微软雅黑";
+	padding: 15px;
+	padding-bottom: 25px;
+	display: inline-block;
+}
+
+.sex .radios{
+	/*display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+	-webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+     flex-flow: row;*/
+    padding-left: 15px;
+	padding-top: 32px;
+	display: inline-block;
+}
+
+.sex .radios h1{
+	padding-top: 0px;
+	padding-left: 5px;
+	display: inline-block;
+}
+
+.signature{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+	-webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+     flex-flow: row;
+     border-bottom: 1px solid #F5F5F5;
+}
+
+.signature h1{
+	font-family: "微软雅黑";
+	padding: 15px;
+}
+
+.signature input{
+	font-family: "微软雅黑";
+	font-size: 1em;
+	height: 20px;
+	margin-top: 15px;
+	outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

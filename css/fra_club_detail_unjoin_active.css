@@ -1,0 +1,118 @@
+#main_frm {
+	margin: 0.3em;
+	background-color: #ffffff;
+	overflow-y: hidden;
+}
+#club_general {
+	/*2015-7-31,Commented by luozhengming,这里内容用动态数据*/
+	/*background-image: url(../image/club_head.png);*/
+	/*background-repeat: no-repeat;
+	background-size: 4em 4em;
+	background-position: 0.5em 0.2em;*/
+	/*padding: 0.2em 0.2em 0.2em 1em;*/
+	
+	border-bottom: 1px solid #F0F0F0;
+	height: 4.5em;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+}
+#club_head_img {
+	margin: 0.2em 0.2em 0.2em 0.5em;
+	height: 64px;
+	width: 64px;
+	border-radius: 50%;
+}
+#club_other {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 10;
+}
+#club_other {
+	margin-left: 5px;
+	margin-top: 5px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-flex-flow: column;
+	flex-flow: column;
+}
+#club_other2 {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+}
+#club_name {
+	font-size: 1.2em;
+}
+#city_school {
+	margin-top: 0.2em;
+	color: #8E8C8C;
+	font-size: 1.0em;
+}
+#blank {
+	height: 10px;
+}
+#brief {
+	/*text-indent: 1em;*/
+	
+	padding: 0.6em 1em 0.6em 1.5em;
+	border-bottom: 5px solid #F0F0F0;
+	font-size: 1.0em;
+	line-height: 1.5em;
+}
+#club_info_list {
+	padding-top: 5px;
+	border-bottom: 5px solid #F0F0F0;
+}
+.info_item {
+	color: #4DD0C8;
+	padding: 8px;
+	margin-left: 1em;
+	margin-right: 1em;
+	padding-left: 0.5em;
+	background-image: url(../image/icon_expand_normal.png);
+	background-repeat: no-repeat;
+	background-size: 18px 23px;
+	background-position: 90% center;
+}
+.info_item1 {
+	border-bottom: 1px solid #F0F0F0;
+}
+.bottom_btn {
+	background: #4DD0C8;
+	padding: 10px 0;
+	text-align: center;
+	margin: 1em 1em 1em;
+	
+	width: 94%;
+	margin-left: 3%;
+	/*margin-right: 3%;*/
+	border-radius: 9px;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	/*position:fixed;
+	bottom: 1em;*/
+}
+.leaderInfo {
+	/*margin: 5px 0 0 1em;*/
+	
+	border: 5px;
+	padding: 8px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+#club_leader {
+	border-bottom: 1px solid #F0F0F0;
+}
+/*#club_leader_name{
+	color: #4ED1C9;
+}*/
+
+#club_contact_tel {
+	color: #4ED1C9;
+}

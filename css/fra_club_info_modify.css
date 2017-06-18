@@ -1,0 +1,63 @@
+#wrap {
+	/*这里如果用padding会导致页面能够拉动，影响体验!*/
+	/*padding-top:0.3em;*/
+}
+#main {
+	margin: 0.3em;
+	background-color: #FFFFFF;
+}
+
+#main #club_general {
+	/*2015-7-25,Modified by luozhengming*/
+	background-image: url(../image/club1.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #F7F7F8;
+	background-size: 100%;
+	border-bottom: 1px solid #F0F0F0;
+/*	opacity: 0.2;*/
+	/*filter:blur(add=true,direction=270,strength=25);*/
+/*	padding-top: 10px;*/
+	/*height: 270px;*/
+
+}
+
+#club_img_p {
+	text-align: center;
+}
+
+#club_img_p #club_img {
+	height: 5em;
+	width: 5em;
+	border-radius: 3em;
+	margin-top: 0.3em;
+}
+
+#main #club_general #club_name {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	text-align: center;
+}
+#main #club_general #club_contact {
+	/*color: #ccc;*/
+	font-size: 0.8em;
+	line-height: 1.5em;
+	text-align: center;
+	color: #8E8C8C;
+	margin-bottom: 1em;
+	/*filter:alpha(opacity=80);*/
+	/*background-color: #4ED1C9;
+	width: 70%;
+	margin-left: 15%;
+	border-radius: 10px;*/
+}
+#main #brief {
+	text-indent: 2em;
+	/*padding: 5px 2px 5px 2px;*/
+	/*border-bottom: 1px solid #F0F0F0;*/
+	padding: 1em;
+}
+
+#footer {
+	/*margin-top: 3em;*/
+}

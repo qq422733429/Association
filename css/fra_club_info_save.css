@@ -1,0 +1,102 @@
+#wrap {
+	/*这里如果用padding会导致页面能够拉动，影响体验!*/
+	/*padding-top:0.3em;*/
+}
+#wrap #main {
+	margin: 0.3em;
+	background-color: #FFFFFF;
+}
+
+#wrap #main .dv_normal {
+	border-bottom: 1px solid #F0F0F0;
+}
+
+#wrap #main div {
+	height: 3em;
+}
+
+#wrap #main #club_head {
+	height: 5em;
+}
+
+#wrap #main div #li1 {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+#wrap #main #club_head #li1 {
+	padding-top: 1.7em;
+}
+#wrap #main #club_head #li2 {
+	/*background-image: url(../image/click_edit.png);*/
+	/*图片贴上并且居中*/
+	background-position: 0.5em 0.3em ;
+	background-repeat: no-repeat;
+	background-size: 4em 4em;
+	height: 5em;
+	width: 5em;
+	padding-top: 1.5em;
+	
+}
+#club_head a {
+	font-size: 0.8em;
+	margin-left: 0.3em;
+	color: #b7b7b7;
+}
+
+#wrap #main #club_brif_intro {
+	height: 9em;
+}
+
+#wrap #main div li {
+	list-style-type: none;
+}
+
+#wrap #main div #li1 {
+	padding-left: 0.7em;
+	padding-top: 0.7em;
+	text-align: left;
+	/*字体之间的间距*/
+}
+
+#main div #li2 {
+	padding-top: 0.5em;
+	text-align: left;
+	padding-left: 0.7em;
+}
+
+#wrap #main div #li2 .t2 {
+	padding-top: 0.2em;
+	font-size: 1em;
+	line-height: 1.5em;
+	text-align: left;
+	/*border: 1px solid #F0F0F0;*/
+	
+}
+
+#club_brif_intro {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+}
+
+#club_brif_intro #li1 {
+	padding-top: 1em;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 2;
+}
+#club_brif_intro #li2 {
+	padding-top: 1em;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 5;
+}
+
+#wrap #main #club_brif_intro .brif_intro_edit {
+	border: 1px solid #E3E9EF;
+	background-color: #F5F5F5;
+}

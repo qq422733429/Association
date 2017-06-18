@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+		<title>部门管理</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<!--<link rel="stylesheet" type="text/css" href="../css/win_section_manage.css" />-->
+		<style>
+			body {
+				background-color: #F5F5F5;
+			}
+			.expandable {
+				background-image: url(../image/icon_club_evaluation_down.png);
+				background-repeat: no-repeat;
+				background-position: 90%;
+				background-size: 2em;
+				font-size: 1.1em;
+				padding: 0.7em 0em 0.7em 0.7em;
+				border-bottom: 1px solid #4ED1C9;
+			}
+			.member_list {
+				background-color: #FFFFFF;
+				padding-bottom: 50px;
+			}
+			.person_item {
+				background-color: #FFFFFF;
+				height: 50px;
+				padding: 5px;
+				border-bottom: 1px solid #F3F5F3;
+			}
+			.person_item img {
+				margin-top: 5px;
+				height: 40px;
+				width: 40px;
+				border-radius: 50%;
+			}
+			.person_head {
+			}
+			.left {
+				display: inline-block;
+				margin-left: 2px;
+			}
+			.person_check {
+				color: #4DD0C8
+			}
+			.check_time {
+				margin-top: 5px;
+				font-size: 0.8em;
+				color: #a5a5a5;
+			}
+			.check {
+				margin-top: 10px;
+				float: right;
+				margin-right: 5%;
+				background-color: #FFFFFF;
+				color: #4DD0C8;
+				border: 1px solid #4DD0C8;
+				width: 50px;
+				height: 30px;
+				line-height: 30px;
+				border-radius: 13px;
+				font-size: 1em;
+				font-weight: bold;
+				text-align: center;
+			}
+			.checked {
+				margin-right: 5%;
+				margin-top: 14px;
+				background-color: #FFFFFF;
+				color: #d5d5d5;
+				font-size: 1em;
+				font-weight: bold;
+				/*margin-right: 5%;*/
+				float: right;
+			}
+			.clear {
+				clear: both;
+			}
+			.rightHeader {
+				background-image: url(../image/check_stop.jpg);
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id ="header1">
+				<div class="leftHeader" tapmode="" onclick="get_back()">
+					<span class="header_font"></span>
+				</div>
+				<div class="null header_font">
+					签到详情
+				</div>
+				<div class="rightHeader" tapmode="" onclick="check_stop()">
+					<span class="header_font"></span>
+				</div>
+			</div>
+			<div id="scroll">
+				<ul class="member_list">
+					<!--<li tapmode="" class="expandable" onclick="showMember(this)">
+					<div class="">
+					社长<span class="person_check">(1/2)</span>
+					</div>
+					</li>-->
+					<!--<li class="member ">
+					<ul >
+					<li class="person_item">
+					<a class="person_head"><img src="../image/boy.png" /></a>
+					<div class="left">
+					<div class="name_duty">
+					AA（社长）
+					</div>
+					<div style="color:#FFFFFF">
+					12:20
+					</div>
+					</div>
+					<a class=" check" tapmode="" onclick="check(this);">签到</a>
+					<div class="clear"></div>
+					</li>
+					</ul>
+					<ul >
+					<li class="person_item">
+					<a class="person_head"><img src="../image/boy.png" /></a>
+					<div class="left">
+					<div class="name_duty">
+					AA（社长）
+					</div>
+					<div class="check_time ">
+					今天 12：20
+					</div>
+					</div>
+					<a class="button checked" tapmode="" onclick="check(this);">已签到</a>
+					<div class="clear"></div>
+					</li>
+					</ul>
+					</li>-->
+				</ul>
+			</div>
+		</div>
+		<script src="../script/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../script/api.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../script/win_checkDetail.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../script/jquery-2.1.4.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			function get_back() {
+				
+			  api.closeWin({
+              });
+			}
+
+
+			
+		</script>
+</html>

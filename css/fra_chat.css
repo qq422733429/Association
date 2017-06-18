@@ -1,0 +1,50 @@
+.message_item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.head {
+	width: 2.5em;
+	height: 2.5em;
+	margin: 10px;
+	border-radius: 50%;
+	text-align: center;
+}
+.person_name {
+	font-weight: bold;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+}
+.activity {
+	margin-right: 10px;
+	color: gray;
+	font-size: 0.7em;
+}
+.message_right {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	margin: 10px 0px;
+}
+.message_content {
+	padding-top: 0.5em;
+	width: 16em;
+	color: gray;
+}
+li {
+	background-color: #FFFFFF;
+	margin-top: 5px;
+}
+.first_line {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.comment_time {
+	font-size: 0.7em;
+	color: gray;
+}
+.hidden {
+	display: none;
+}

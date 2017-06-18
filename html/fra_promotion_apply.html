@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+		<title>promotion_apply</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/fra_promotion_apply.css" />
+	</head>
+
+	<body>
+		<div id="wrap">
+			<div id="main_frm">
+				<div id="apply_reason">
+					<p id="apply_reason_tip">申请缘由</p>
+					<textarea class="apply_reason_text" id="apply_reason_text" rows="6" placeholder="写下你的理由，show出你的优势，打动社长的心吧~"></textarea>
+				</div>
+				<div id="apply_title">
+					<p id="apply_to">申请成为</p>
+					<ul class="department">
+						<li class="li">部门</li>
+						<select class="depart_sel" id="depart_sel" onchange="changePos(this.value,this.options[this.selectedIndex].text)">
+							<option value="empty_depart"></option>
+							<!--<option value="president_depart">社长部</option>
+							<option value="org_depart">组织部</option>
+							<option value="liaison_depart">外联部</option>
+							<option value="marketing_depart">市场部</option>-->
+						</select>
+					</ul>
+					<ul class="position">
+						<li class="li">职位</li>
+						<select class="pos_sel" id="pos_sel">
+							<option value="empty"></option>
+							<!--<option value="minister">部长</option>
+							<option value="vice_minister">副部长</option>
+							<option value="mohamed">干事</option>-->
+						</select>
+					</ul>
+				</div>
+				<div tapmode="tap" class="sub" onclick="sub_promotion()">提交申请</div>
+			</div>
+		</div>
+	</body>
+	<script src="../script/api.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../script/fra_promotion_apply.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="../script/common.js" charset="utf-8"></script>
+	<script type="text/javascript" src="../script/jquery-2.1.4.js" charset="utf-8"></script>
+
+</html>

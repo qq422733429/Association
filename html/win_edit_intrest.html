@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>基本信息</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css" />
+    	<link rel="stylesheet" type="text/css" href="../css/common.css" />
+    	<style>
+    	.rightHeader {
+	 		
+	 		background-image: url(../image/icon_save.png);
+	 		
+ 		}
+ 		.school_info{
+ 			margin-top: 5px;
+ 			
+ 			background-color: #FFFFFF;
+ 			padding-bottom: 20px;
+ 	    }
+ 	    .item{
+ 	    	margin-top:5px;
+ 	    	padding-left: 5%;
+ 	    	border-bottom: 1px solid #fafafa;
+ 	    	line-height: 30px;
+ 	    	font-size: 1em;
+ 	    	
+ 	    }
+ 	    .item .key,.right_arrow{
+ 	    	display: inline-block;
+ 	    }
+ 	    .right_arrow{
+ 	    	float:right;  	
+ 	    	margin-right: 5%;
+ 	    }
+ 	    .right_arrow img{
+ 	    	vertical-align:middle;
+ 	    	height: 30px;
+ 	        width: 30px;
+ 	    		
+ 	    }
+ 	    
+
+ 	    .bg_color{
+ 	    	color:#FFFFFF
+ 	    }
+ 	    .love{
+ 	    	margin-left:5%
+ 	    }
+    	</style>
+	</head>
+	<body>
+		<div id ="header1">
+			 	<div class="leftHeader" tapmode="" onclick="returnBack()"><span class="header_font"></span>	</div>
+			 	<div class="null header_font">学校信息</div>
+			 	<div class="rightHeader"tapmode="" onclick=""></div>
+		</div>
+		<div class="school_info ">
+			<div class="item">
+				<div class="key">兴趣爱好：</div>
+				 <div  class="right_arrow"tapmode="" onclick="edit_intrest_info()"><img src="../image/icon_club_evaluation_right.png"/></div>
+			</div>
+			<div class="item">
+				<span class="key">出生日期：</span>
+				<div  class="right_arrow"tapmode="" onclick="edit_intrest_info()"><img src="../image/icon_club_evaluation_right.png"/></div>
+			</div>
+			<div class="item">
+				<span class="key">恋爱状态：</span>
+			    <input type="radio" name="love" class="love">单身汪    
+			    <input type="radio" name="love" class="love">有主了
+			</div>
+				
+			
+		</div>
+		
+	</body>
+</html>

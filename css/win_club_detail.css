@@ -1,0 +1,52 @@
+#header {
+	border-bottom: 5px solid #F0F0F0;
+}
+#club_general {
+	background-image: url(../image/club_head.png);
+	background-repeat: no-repeat;
+	background-size: 45px;
+	background-position: 5px 0px;
+	padding: 0 0 5px 50px;
+	border-bottom: 1px solid #F0F0F0;
+}
+#club_name {
+	font-size: 1.2em;
+}
+#city_school {
+	color: #ccc;
+	font-size: 0.8em;
+	line-height: 1.5;
+}
+#brief {
+	text-indent: 2em;
+	padding: 5px 2px 5px 2px;
+	border-bottom: 5px solid #F0F0F0;
+}
+#club_info_list {
+	padding-top: 5px;
+	border-bottom: 5px solid #F0F0F0;
+}
+#club_info_list li {
+	padding: 7px;
+}
+.info_item {
+	color: #4DD0C8;
+	padding: 8px;
+	border-bottom: 1px solid #F0F0F0;
+	background-image: url(../image/next.png);
+	background-repeat: no-repeat;
+	background-size: 10px 18px;
+	background-position: 90% center;	
+}
+
+.bottom_btn{
+	background: #4DD0C8;
+	padding: 10px 0;
+	text-align: center;
+	margin: 30px;
+	border-radius: 9px;
+	margin-bottom: 20px;
+}
+.readerInfo{
+	margin: 5px 0 0 5px;
+}

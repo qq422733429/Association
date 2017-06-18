@@ -1,0 +1,248 @@
+.rightHeader {
+
+	background-image: url(../image/icon_save.png)
+}
+
+
+
+h1 {
+	font-family: "微软雅黑";
+	font-size: 1em;
+	font-weight: 200;
+}
+
+#header {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+	width: 100%;
+	background: white;
+}
+
+#header img {
+	width: 50px;
+	height: 50px;
+}
+
+#header h1 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	white-space: nowrap;
+	font-size: 1.5em;
+	color: #4ED1C9;
+}
+
+#header .null {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+}
+
+#header .complete {
+	margin: 10px;
+}
+
+#header .complete img {
+	width: 30px;
+	height: 30px;
+}
+
+#main {
+	margin-top: 15px;
+	overflow-x: hidden;
+}
+
+#main h1 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 20px;
+	white-space: nowrap;
+}
+
+.finance_time {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	background: white;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+	padding: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid gainsboro;
+}
+
+.finance_time img {
+	height: 40px;
+	width: 30px;
+	padding-right: 10px;
+}
+
+.finance_time .null {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+}
+
+.finance_time input {
+	height: 25px;
+	width: 150px;
+	margin-top: 5px;
+	font-family: "微软雅黑";
+	font-size: 1em;
+}
+
+#main .finance_activity {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	background: white;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+	padding: 15px;
+	border-bottom: 1px solid gainsboro;
+}
+
+.finance_activity input {
+	height: 25px;
+	width: 150px;
+	margin-top: 5px;
+	font-family: "微软雅黑";
+	font-size: 1em;
+}
+
+#main .finance_total {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	background: white;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+	padding: 15px;
+	border-bottom: 1px solid gainsboro;
+}
+
+.finance_total input {
+	height: 25px;
+	width: 150px;
+	margin-top: 5px;
+	font-family: "微软雅黑";
+	font-size: 1em;
+}
+
+#main .finance_person {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
+	background: white;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+	padding: 15px;
+	border-bottom: 1px solid gainsboro;
+}
+
+#main .finance_person input {
+	height: 25px;
+	width: 150px;
+	margin-top: 5px;
+	font-family: "微软雅黑";
+	font-size: 1em;
+	margin-left: 19px;
+}
+
+#main .finance_type {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+	background: white;
+	padding: 15px;
+	border-bottom: 1px solid gainsboro;
+}
+
+#main .finance_type .content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+}
+
+#main .finance_type label {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-flex-flow: row;
+	flex-flow: row;
+}
+
+#main .finance_type #null {
+	padding: 20px;
+}
+
+.finance_type input {
+	margin-top: 13%;
+}
+
+#main .finance_photo {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-flex-flow: column;
+	flex-flow: column;
+	background: white;
+	width: 100%;
+	padding: 15px;
+}
+
+#main .finance_photo h1 {
+	padding-bottom: 15px;
+}
+
+#main .finance_photo .content {
+	/*width: 100%;*/
+}
+
+.finance_photo li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	height: 100px;
+	margin-left: 3px;
+	margin-top: 2px float :left;
+}
+
+.finance_photo img {
+	margin: 5px;
+	height: 100px;
+	width: 100%;
+}
+
+.float {
+	clear: both;
+}
+
