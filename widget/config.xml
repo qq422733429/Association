@@ -1,0 +1,13 @@
+<widget id="A6982914277502"  version="1.0.1">
+    <name>Association</name>
+    <description>
+        Association Manager of Huawei.
+    </description>
+    <author email="peterwpj@vip.qq.com">
+        Peter
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="windowBackground" value="#FFF" />
+    <permission name="call" />
+</widget>
